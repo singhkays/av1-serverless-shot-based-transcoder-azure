@@ -1,0 +1,5192 @@
+[
+    {
+        "id": 1,
+        "keyFrames": [
+            {
+                "id": 1,
+                "instances": [
+                    {
+                        "thumbnailId": "bab08c82-d397-43b6-9296-6756c1926a2c",
+                        "adjustedStart": "0:00:00.208",
+                        "adjustedEnd": "0:00:00.25",
+                        "start": "0:00:00.208",
+                        "end": "0:00:00.25"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:10.333",
+                "start": "0:00:00",
+                "end": "0:00:10.333"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 2,
+                "instances": [
+                    {
+                        "thumbnailId": "64fc097e-afa3-45d9-9ec4-4db1b05aec85",
+                        "adjustedStart": "0:00:10.333",
+                        "adjustedEnd": "0:00:10.375",
+                        "start": "0:00:10.333",
+                        "end": "0:00:10.375"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "instances": [
+                    {
+                        "thumbnailId": "b92a2452-112e-49c9-a7ac-3f7615a30b31",
+                        "adjustedStart": "0:00:11.167",
+                        "adjustedEnd": "0:00:11.209",
+                        "start": "0:00:11.167",
+                        "end": "0:00:11.209"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "instances": [
+                    {
+                        "thumbnailId": "a6d3ed3f-c17c-4fe8-9ca9-c699bc5b08e3",
+                        "adjustedStart": "0:00:12.417",
+                        "adjustedEnd": "0:00:12.459",
+                        "start": "0:00:12.417",
+                        "end": "0:00:12.459"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:00:10.333",
+                "adjustedEnd": "0:00:13.5",
+                "start": "0:00:10.333",
+                "end": "0:00:13.5"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "keyFrames": [
+            {
+                "id": 5,
+                "instances": [
+                    {
+                        "thumbnailId": "d5c31936-ad44-4786-abda-0a20143826aa",
+                        "adjustedStart": "0:00:13.5",
+                        "adjustedEnd": "0:00:13.542",
+                        "start": "0:00:13.5",
+                        "end": "0:00:13.542"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "instances": [
+                    {
+                        "thumbnailId": "a25dc6b8-b03f-4110-b83a-fb52ba588b69",
+                        "adjustedStart": "0:00:15.667",
+                        "adjustedEnd": "0:00:15.709",
+                        "start": "0:00:15.667",
+                        "end": "0:00:15.709"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "instances": [
+                    {
+                        "thumbnailId": "6aa54d20-e0e7-4763-8e47-e818bed1cde0",
+                        "adjustedStart": "0:00:17.25",
+                        "adjustedEnd": "0:00:17.292",
+                        "start": "0:00:17.25",
+                        "end": "0:00:17.292"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:00:13.5",
+                "adjustedEnd": "0:00:18.458",
+                "start": "0:00:13.5",
+                "end": "0:00:18.458"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "keyFrames": [
+            {
+                "id": 8,
+                "instances": [
+                    {
+                        "thumbnailId": "b58fd79e-fa6b-4e3f-ac56-72b4641e5339",
+                        "adjustedStart": "0:00:18.458",
+                        "adjustedEnd": "0:00:18.5",
+                        "start": "0:00:18.458",
+                        "end": "0:00:18.5"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:00:18.458",
+                "adjustedEnd": "0:00:25.042",
+                "start": "0:00:18.458",
+                "end": "0:00:25.042"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "tags": [
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 9,
+                "instances": [
+                    {
+                        "thumbnailId": "194880f2-9e00-4caf-b241-959267e31097",
+                        "adjustedStart": "0:00:25.042",
+                        "adjustedEnd": "0:00:25.084",
+                        "start": "0:00:25.042",
+                        "end": "0:00:25.084"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:00:25.042",
+                "adjustedEnd": "0:00:40.292",
+                "start": "0:00:25.042",
+                "end": "0:00:40.292"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "tags": [
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 10,
+                "instances": [
+                    {
+                        "thumbnailId": "eabc0653-5411-487b-89bc-ba26c86fe332",
+                        "adjustedStart": "0:00:40.292",
+                        "adjustedEnd": "0:00:40.334",
+                        "start": "0:00:40.292",
+                        "end": "0:00:40.334"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:00:40.292",
+                "adjustedEnd": "0:00:42.125",
+                "start": "0:00:40.292",
+                "end": "0:00:42.125"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "keyFrames": [
+            {
+                "id": 11,
+                "instances": [
+                    {
+                        "thumbnailId": "ed274fdf-7a0b-4a76-980a-ea750a973bd0",
+                        "adjustedStart": "0:00:42.125",
+                        "adjustedEnd": "0:00:42.167",
+                        "start": "0:00:42.125",
+                        "end": "0:00:42.167"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:00:42.125",
+                "adjustedEnd": "0:00:45.917",
+                "start": "0:00:42.125",
+                "end": "0:00:45.917"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "tags": [
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 12,
+                "instances": [
+                    {
+                        "thumbnailId": "cf9cdf0d-3aaf-47c4-b19b-63451b448b74",
+                        "adjustedStart": "0:00:45.917",
+                        "adjustedEnd": "0:00:45.959",
+                        "start": "0:00:45.917",
+                        "end": "0:00:45.959"
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "instances": [
+                    {
+                        "thumbnailId": "e4bbaa56-c83b-488a-9c79-ed20b012a0d3",
+                        "adjustedStart": "0:00:47.667",
+                        "adjustedEnd": "0:00:47.709",
+                        "start": "0:00:47.667",
+                        "end": "0:00:47.709"
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "instances": [
+                    {
+                        "thumbnailId": "a12ee69f-8c73-4043-a92a-943116cf2630",
+                        "adjustedStart": "0:00:48.292",
+                        "adjustedEnd": "0:00:48.334",
+                        "start": "0:00:48.292",
+                        "end": "0:00:48.334"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:00:45.917",
+                "adjustedEnd": "0:00:50.083",
+                "start": "0:00:45.917",
+                "end": "0:00:50.083"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "keyFrames": [
+            {
+                "id": 15,
+                "instances": [
+                    {
+                        "thumbnailId": "a0350110-d130-49aa-ba9d-c0dd7c517a39",
+                        "adjustedStart": "0:00:50.083",
+                        "adjustedEnd": "0:00:50.125",
+                        "start": "0:00:50.083",
+                        "end": "0:00:50.125"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:00:50.083",
+                "adjustedEnd": "0:00:51.417",
+                "start": "0:00:50.083",
+                "end": "0:00:51.417"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "tags": [
+            "Medium",
+            "CenterFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 16,
+                "instances": [
+                    {
+                        "thumbnailId": "e2c49535-6c74-4191-a171-7fad964bc42f",
+                        "adjustedStart": "0:00:51.417",
+                        "adjustedEnd": "0:00:51.459",
+                        "start": "0:00:51.417",
+                        "end": "0:00:51.459"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:00:51.417",
+                "adjustedEnd": "0:00:53.708",
+                "start": "0:00:51.417",
+                "end": "0:00:53.708"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "keyFrames": [
+            {
+                "id": 17,
+                "instances": [
+                    {
+                        "thumbnailId": "14c47f7d-f83d-45f2-ba58-491b5e0955fc",
+                        "adjustedStart": "0:00:53.708",
+                        "adjustedEnd": "0:00:53.75",
+                        "start": "0:00:53.708",
+                        "end": "0:00:53.75"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:00:53.708",
+                "adjustedEnd": "0:00:56.958",
+                "start": "0:00:53.708",
+                "end": "0:00:56.958"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "tags": [
+            "ExtremeCloseUp",
+            "CenterFace",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 18,
+                "instances": [
+                    {
+                        "thumbnailId": "dd5e277a-e80f-4c23-9360-06179c56f6a4",
+                        "adjustedStart": "0:00:56.958",
+                        "adjustedEnd": "0:00:57",
+                        "start": "0:00:56.958",
+                        "end": "0:00:57"
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "instances": [
+                    {
+                        "thumbnailId": "e80ae8e5-926d-4941-838f-d9931eaf2c33",
+                        "adjustedStart": "0:01:00.25",
+                        "adjustedEnd": "0:01:00.292",
+                        "start": "0:01:00.25",
+                        "end": "0:01:00.292"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:00:56.958",
+                "adjustedEnd": "0:01:09.917",
+                "start": "0:00:56.958",
+                "end": "0:01:09.917"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "keyFrames": [
+            {
+                "id": 20,
+                "instances": [
+                    {
+                        "thumbnailId": "5d1b5428-32a9-4e30-be33-bec9682e1600",
+                        "adjustedStart": "0:01:09.917",
+                        "adjustedEnd": "0:01:09.959",
+                        "start": "0:01:09.917",
+                        "end": "0:01:09.959"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:01:09.917",
+                "adjustedEnd": "0:01:10.208",
+                "start": "0:01:09.917",
+                "end": "0:01:10.208"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "keyFrames": [
+            {
+                "id": 21,
+                "instances": [
+                    {
+                        "thumbnailId": "17dc88fd-9488-446b-9312-17d4c27fe211",
+                        "adjustedStart": "0:01:10.208",
+                        "adjustedEnd": "0:01:10.25",
+                        "start": "0:01:10.208",
+                        "end": "0:01:10.25"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:01:10.208",
+                "adjustedEnd": "0:01:14.125",
+                "start": "0:01:10.208",
+                "end": "0:01:14.125"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "tags": [
+            "Outdoor",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 22,
+                "instances": [
+                    {
+                        "thumbnailId": "47d9443f-3ff0-4b5d-a29d-957b671510ab",
+                        "adjustedStart": "0:01:14.125",
+                        "adjustedEnd": "0:01:14.167",
+                        "start": "0:01:14.125",
+                        "end": "0:01:14.167"
+                    }
+                ]
+            },
+            {
+                "id": 23,
+                "instances": [
+                    {
+                        "thumbnailId": "bc25c147-ec40-4e82-a7bf-83b91c3c544a",
+                        "adjustedStart": "0:01:16.875",
+                        "adjustedEnd": "0:01:16.917",
+                        "start": "0:01:16.875",
+                        "end": "0:01:16.917"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:01:14.125",
+                "adjustedEnd": "0:01:19.667",
+                "start": "0:01:14.125",
+                "end": "0:01:19.667"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 24,
+                "instances": [
+                    {
+                        "thumbnailId": "a5a0e128-b6c1-4244-8021-89465ec9e003",
+                        "adjustedStart": "0:01:19.667",
+                        "adjustedEnd": "0:01:19.709",
+                        "start": "0:01:19.667",
+                        "end": "0:01:19.709"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:01:19.667",
+                "adjustedEnd": "0:01:22.417",
+                "start": "0:01:19.667",
+                "end": "0:01:22.417"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "tags": [
+            "Medium",
+            "CenterFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 25,
+                "instances": [
+                    {
+                        "thumbnailId": "bf12aa03-965f-4c5c-b050-d50ea740e092",
+                        "adjustedStart": "0:01:22.417",
+                        "adjustedEnd": "0:01:22.459",
+                        "start": "0:01:22.417",
+                        "end": "0:01:22.459"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:01:22.417",
+                "adjustedEnd": "0:01:24.875",
+                "start": "0:01:22.417",
+                "end": "0:01:24.875"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "keyFrames": [
+            {
+                "id": 26,
+                "instances": [
+                    {
+                        "thumbnailId": "75793bf0-0d7c-49dc-8e60-b8530413ed01",
+                        "adjustedStart": "0:01:24.875",
+                        "adjustedEnd": "0:01:24.917",
+                        "start": "0:01:24.875",
+                        "end": "0:01:24.917"
+                    }
+                ]
+            },
+            {
+                "id": 27,
+                "instances": [
+                    {
+                        "thumbnailId": "3df86f48-7a1d-4130-853e-5effc1d11a51",
+                        "adjustedStart": "0:01:28.333",
+                        "adjustedEnd": "0:01:28.375",
+                        "start": "0:01:28.333",
+                        "end": "0:01:28.375"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:01:24.875",
+                "adjustedEnd": "0:01:32.458",
+                "start": "0:01:24.875",
+                "end": "0:01:32.458"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "keyFrames": [
+            {
+                "id": 28,
+                "instances": [
+                    {
+                        "thumbnailId": "596947bd-ff3b-451a-a87d-d1f245832254",
+                        "adjustedStart": "0:01:32.458",
+                        "adjustedEnd": "0:01:32.5",
+                        "start": "0:01:32.458",
+                        "end": "0:01:32.5"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:01:32.458",
+                "adjustedEnd": "0:01:35.458",
+                "start": "0:01:32.458",
+                "end": "0:01:35.458"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "keyFrames": [
+            {
+                "id": 29,
+                "instances": [
+                    {
+                        "thumbnailId": "e11ef049-4048-4d2f-a537-62ba2a1f4d95",
+                        "adjustedStart": "0:01:35.458",
+                        "adjustedEnd": "0:01:35.5",
+                        "start": "0:01:35.458",
+                        "end": "0:01:35.5"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:01:35.458",
+                "adjustedEnd": "0:01:38.25",
+                "start": "0:01:35.458",
+                "end": "0:01:38.25"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "keyFrames": [
+            {
+                "id": 30,
+                "instances": [
+                    {
+                        "thumbnailId": "d60d9ee6-aaea-43d8-952a-46cc76c87833",
+                        "adjustedStart": "0:01:38.25",
+                        "adjustedEnd": "0:01:38.292",
+                        "start": "0:01:38.25",
+                        "end": "0:01:38.292"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:01:38.25",
+                "adjustedEnd": "0:01:42.458",
+                "start": "0:01:38.25",
+                "end": "0:01:42.458"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 31,
+                "instances": [
+                    {
+                        "thumbnailId": "b29aad1f-c1d6-4eee-bc2b-99ccc5116e26",
+                        "adjustedStart": "0:01:42.458",
+                        "adjustedEnd": "0:01:42.5",
+                        "start": "0:01:42.458",
+                        "end": "0:01:42.5"
+                    }
+                ]
+            },
+            {
+                "id": 32,
+                "instances": [
+                    {
+                        "thumbnailId": "7845ffdd-0909-4b1e-a023-bb59fbd49979",
+                        "adjustedStart": "0:01:55.042",
+                        "adjustedEnd": "0:01:55.084",
+                        "start": "0:01:55.042",
+                        "end": "0:01:55.084"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:01:42.458",
+                "adjustedEnd": "0:01:57",
+                "start": "0:01:42.458",
+                "end": "0:01:57"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 33,
+                "instances": [
+                    {
+                        "thumbnailId": "ba9aef9e-862d-4980-88ae-fe0e3422c1c8",
+                        "adjustedStart": "0:01:57",
+                        "adjustedEnd": "0:01:57.042",
+                        "start": "0:01:57",
+                        "end": "0:01:57.042"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:01:57",
+                "adjustedEnd": "0:01:59.917",
+                "start": "0:01:57",
+                "end": "0:01:59.917"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "tags": [
+            "Medium",
+            "LeftFace",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 34,
+                "instances": [
+                    {
+                        "thumbnailId": "6bf34c75-2822-4237-b6b2-2ef68032f47e",
+                        "adjustedStart": "0:01:59.917",
+                        "adjustedEnd": "0:01:59.959",
+                        "start": "0:01:59.917",
+                        "end": "0:01:59.959"
+                    }
+                ]
+            },
+            {
+                "id": 35,
+                "instances": [
+                    {
+                        "thumbnailId": "6a6012aa-4ddb-44db-a30b-c747d5bc3a5d",
+                        "adjustedStart": "0:02:07.958",
+                        "adjustedEnd": "0:02:08",
+                        "start": "0:02:07.958",
+                        "end": "0:02:08"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:01:59.917",
+                "adjustedEnd": "0:02:14.958",
+                "start": "0:01:59.917",
+                "end": "0:02:14.958"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "keyFrames": [
+            {
+                "id": 36,
+                "instances": [
+                    {
+                        "thumbnailId": "8bc6d100-4edc-4a76-9ca8-f1cee85b2a97",
+                        "adjustedStart": "0:02:14.958",
+                        "adjustedEnd": "0:02:15",
+                        "start": "0:02:14.958",
+                        "end": "0:02:15"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:02:14.958",
+                "adjustedEnd": "0:02:20.208",
+                "start": "0:02:14.958",
+                "end": "0:02:20.208"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "tags": [
+            "Medium",
+            "CenterFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 37,
+                "instances": [
+                    {
+                        "thumbnailId": "96c766b8-d44f-4429-91f1-7bb74aa74f3f",
+                        "adjustedStart": "0:02:20.208",
+                        "adjustedEnd": "0:02:20.25",
+                        "start": "0:02:20.208",
+                        "end": "0:02:20.25"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:02:20.208",
+                "adjustedEnd": "0:02:23.333",
+                "start": "0:02:20.208",
+                "end": "0:02:23.333"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "tags": [
+            "Medium",
+            "CenterFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 38,
+                "instances": [
+                    {
+                        "thumbnailId": "2ce3c00a-3b79-49a4-a691-a8be86728841",
+                        "adjustedStart": "0:02:23.333",
+                        "adjustedEnd": "0:02:23.375",
+                        "start": "0:02:23.333",
+                        "end": "0:02:23.375"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:02:23.333",
+                "adjustedEnd": "0:02:25.833",
+                "start": "0:02:23.333",
+                "end": "0:02:25.833"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "tags": [
+            "ExtremeCloseUp",
+            "LeftFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 39,
+                "instances": [
+                    {
+                        "thumbnailId": "9b97953f-d813-401c-b0a2-a0e36245b760",
+                        "adjustedStart": "0:02:25.833",
+                        "adjustedEnd": "0:02:25.875",
+                        "start": "0:02:25.833",
+                        "end": "0:02:25.875"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:02:25.833",
+                "adjustedEnd": "0:02:32.917",
+                "start": "0:02:25.833",
+                "end": "0:02:32.917"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "keyFrames": [
+            {
+                "id": 40,
+                "instances": [
+                    {
+                        "thumbnailId": "91f3f391-fe87-4077-aa1d-f1c6378b853e",
+                        "adjustedStart": "0:02:32.917",
+                        "adjustedEnd": "0:02:32.959",
+                        "start": "0:02:32.917",
+                        "end": "0:02:32.959"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:02:32.917",
+                "adjustedEnd": "0:02:41.292",
+                "start": "0:02:32.917",
+                "end": "0:02:41.292"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "tags": [
+            "Outdoor",
+            "Wide",
+            "CenterFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 41,
+                "instances": [
+                    {
+                        "thumbnailId": "113c4822-19c6-4107-82d1-1bf4b0450c4f",
+                        "adjustedStart": "0:02:41.292",
+                        "adjustedEnd": "0:02:41.334",
+                        "start": "0:02:41.292",
+                        "end": "0:02:41.334"
+                    }
+                ]
+            },
+            {
+                "id": 42,
+                "instances": [
+                    {
+                        "thumbnailId": "014194a1-cf4e-4bd4-aefa-b0d092fb7c1c",
+                        "adjustedStart": "0:02:44.042",
+                        "adjustedEnd": "0:02:44.084",
+                        "start": "0:02:44.042",
+                        "end": "0:02:44.084"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:02:41.292",
+                "adjustedEnd": "0:02:52.583",
+                "start": "0:02:41.292",
+                "end": "0:02:52.583"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "tags": [
+            "Outdoor",
+            "Medium",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 43,
+                "instances": [
+                    {
+                        "thumbnailId": "9b7132ed-4f0d-4672-abce-53caf9554129",
+                        "adjustedStart": "0:02:52.583",
+                        "adjustedEnd": "0:02:52.625",
+                        "start": "0:02:52.583",
+                        "end": "0:02:52.625"
+                    }
+                ]
+            },
+            {
+                "id": 44,
+                "instances": [
+                    {
+                        "thumbnailId": "e86b658f-4287-48e2-add9-132096cd42a3",
+                        "adjustedStart": "0:02:59.5",
+                        "adjustedEnd": "0:02:59.542",
+                        "start": "0:02:59.5",
+                        "end": "0:02:59.542"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:02:52.583",
+                "adjustedEnd": "0:03:03.292",
+                "start": "0:02:52.583",
+                "end": "0:03:03.292"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 45,
+                "instances": [
+                    {
+                        "thumbnailId": "88c581ae-c10d-402a-ab4d-744293a0b17d",
+                        "adjustedStart": "0:03:03.292",
+                        "adjustedEnd": "0:03:03.334",
+                        "start": "0:03:03.292",
+                        "end": "0:03:03.334"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:03:03.292",
+                "adjustedEnd": "0:03:09.792",
+                "start": "0:03:03.292",
+                "end": "0:03:09.792"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "keyFrames": [
+            {
+                "id": 46,
+                "instances": [
+                    {
+                        "thumbnailId": "026f6c03-f1fa-410b-a4c0-64d3365bfbc0",
+                        "adjustedStart": "0:03:09.792",
+                        "adjustedEnd": "0:03:09.834",
+                        "start": "0:03:09.792",
+                        "end": "0:03:09.834"
+                    }
+                ]
+            },
+            {
+                "id": 47,
+                "instances": [
+                    {
+                        "thumbnailId": "542768bc-a3ef-4712-ba69-259ed88e65d2",
+                        "adjustedStart": "0:03:12.458",
+                        "adjustedEnd": "0:03:12.5",
+                        "start": "0:03:12.458",
+                        "end": "0:03:12.5"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:03:09.792",
+                "adjustedEnd": "0:03:13.125",
+                "start": "0:03:09.792",
+                "end": "0:03:13.125"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "tags": [
+            "Medium",
+            "Wide"
+        ],
+        "keyFrames": [
+            {
+                "id": 48,
+                "instances": [
+                    {
+                        "thumbnailId": "6f0cde29-6b85-40c2-a4cf-63eb57bffb13",
+                        "adjustedStart": "0:03:13.125",
+                        "adjustedEnd": "0:03:13.167",
+                        "start": "0:03:13.125",
+                        "end": "0:03:13.167"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:03:13.125",
+                "adjustedEnd": "0:03:18.792",
+                "start": "0:03:13.125",
+                "end": "0:03:18.792"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "tags": [
+            "ExtremeCloseUp",
+            "LeftFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 49,
+                "instances": [
+                    {
+                        "thumbnailId": "887242b4-29fa-4ecd-9656-b54405415f49",
+                        "adjustedStart": "0:03:18.792",
+                        "adjustedEnd": "0:03:18.834",
+                        "start": "0:03:18.792",
+                        "end": "0:03:18.834"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:03:18.792",
+                "adjustedEnd": "0:03:21.208",
+                "start": "0:03:18.792",
+                "end": "0:03:21.208"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "tags": [
+            "Medium",
+            "Wide",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 50,
+                "instances": [
+                    {
+                        "thumbnailId": "6378097e-4a48-4bef-95c6-2df3a54507c3",
+                        "adjustedStart": "0:03:21.208",
+                        "adjustedEnd": "0:03:21.25",
+                        "start": "0:03:21.208",
+                        "end": "0:03:21.25"
+                    }
+                ]
+            },
+            {
+                "id": 51,
+                "instances": [
+                    {
+                        "thumbnailId": "1e564622-b418-4d21-b018-1f7595b9b8ce",
+                        "adjustedStart": "0:03:24.917",
+                        "adjustedEnd": "0:03:24.959",
+                        "start": "0:03:24.917",
+                        "end": "0:03:24.959"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:03:21.208",
+                "adjustedEnd": "0:03:26.708",
+                "start": "0:03:21.208",
+                "end": "0:03:26.708"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 52,
+                "instances": [
+                    {
+                        "thumbnailId": "33c36f6a-9cfa-4f9a-a9d3-bafc693c92d3",
+                        "adjustedStart": "0:03:26.708",
+                        "adjustedEnd": "0:03:26.75",
+                        "start": "0:03:26.708",
+                        "end": "0:03:26.75"
+                    }
+                ]
+            },
+            {
+                "id": 53,
+                "instances": [
+                    {
+                        "thumbnailId": "00eb3181-4646-4512-bc98-2d78eca03f11",
+                        "adjustedStart": "0:03:27.5",
+                        "adjustedEnd": "0:03:27.542",
+                        "start": "0:03:27.5",
+                        "end": "0:03:27.542"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:03:26.708",
+                "adjustedEnd": "0:03:29.583",
+                "start": "0:03:26.708",
+                "end": "0:03:29.583"
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "keyFrames": [
+            {
+                "id": 54,
+                "instances": [
+                    {
+                        "thumbnailId": "6647e2e4-ffda-417d-9448-b9364be36a63",
+                        "adjustedStart": "0:03:29.583",
+                        "adjustedEnd": "0:03:29.625",
+                        "start": "0:03:29.583",
+                        "end": "0:03:29.625"
+                    }
+                ]
+            },
+            {
+                "id": 55,
+                "instances": [
+                    {
+                        "thumbnailId": "85789d51-dbb4-40ab-818b-4ac8b59a33cf",
+                        "adjustedStart": "0:03:30.708",
+                        "adjustedEnd": "0:03:30.75",
+                        "start": "0:03:30.708",
+                        "end": "0:03:30.75"
+                    }
+                ]
+            },
+            {
+                "id": 56,
+                "instances": [
+                    {
+                        "thumbnailId": "5d36c0f3-e06c-4435-9953-fddd261d3b90",
+                        "adjustedStart": "0:03:31.333",
+                        "adjustedEnd": "0:03:31.375",
+                        "start": "0:03:31.333",
+                        "end": "0:03:31.375"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:03:29.583",
+                "adjustedEnd": "0:03:32.75",
+                "start": "0:03:29.583",
+                "end": "0:03:32.75"
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "keyFrames": [
+            {
+                "id": 57,
+                "instances": [
+                    {
+                        "thumbnailId": "b741da64-96bc-4554-95a1-c9b5e284858f",
+                        "adjustedStart": "0:03:32.75",
+                        "adjustedEnd": "0:03:32.792",
+                        "start": "0:03:32.75",
+                        "end": "0:03:32.792"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:03:32.75",
+                "adjustedEnd": "0:03:33.958",
+                "start": "0:03:32.75",
+                "end": "0:03:33.958"
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "tags": [
+            "Medium",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 58,
+                "instances": [
+                    {
+                        "thumbnailId": "7ce468d8-9744-4d4e-ba2d-a745d2a44110",
+                        "adjustedStart": "0:03:33.958",
+                        "adjustedEnd": "0:03:34",
+                        "start": "0:03:33.958",
+                        "end": "0:03:34"
+                    }
+                ]
+            },
+            {
+                "id": 59,
+                "instances": [
+                    {
+                        "thumbnailId": "8d79cbdd-ff17-4bdb-ae1f-a7ab044e952e",
+                        "adjustedStart": "0:03:35.333",
+                        "adjustedEnd": "0:03:35.375",
+                        "start": "0:03:35.333",
+                        "end": "0:03:35.375"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:03:33.958",
+                "adjustedEnd": "0:03:36.125",
+                "start": "0:03:33.958",
+                "end": "0:03:36.125"
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "keyFrames": [
+            {
+                "id": 60,
+                "instances": [
+                    {
+                        "thumbnailId": "bda61dd4-e911-4d84-98c6-0eaccbe372df",
+                        "adjustedStart": "0:03:36.125",
+                        "adjustedEnd": "0:03:36.167",
+                        "start": "0:03:36.125",
+                        "end": "0:03:36.167"
+                    }
+                ]
+            },
+            {
+                "id": 61,
+                "instances": [
+                    {
+                        "thumbnailId": "91b184ab-e633-4b6c-9fc7-cf5e99e09e8e",
+                        "adjustedStart": "0:03:39.333",
+                        "adjustedEnd": "0:03:39.375",
+                        "start": "0:03:39.333",
+                        "end": "0:03:39.375"
+                    }
+                ]
+            },
+            {
+                "id": 62,
+                "instances": [
+                    {
+                        "thumbnailId": "9742ff73-2f39-4cba-985f-51da51462455",
+                        "adjustedStart": "0:03:41.083",
+                        "adjustedEnd": "0:03:41.125",
+                        "start": "0:03:41.083",
+                        "end": "0:03:41.125"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:03:36.125",
+                "adjustedEnd": "0:03:42.708",
+                "start": "0:03:36.125",
+                "end": "0:03:42.708"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "keyFrames": [
+            {
+                "id": 63,
+                "instances": [
+                    {
+                        "thumbnailId": "e5dd449f-ef36-47bd-9301-f4d2e95d4d89",
+                        "adjustedStart": "0:03:42.708",
+                        "adjustedEnd": "0:03:42.75",
+                        "start": "0:03:42.708",
+                        "end": "0:03:42.75"
+                    }
+                ]
+            },
+            {
+                "id": 64,
+                "instances": [
+                    {
+                        "thumbnailId": "f3738d86-94eb-455c-b5a0-a54627a102f9",
+                        "adjustedStart": "0:03:43.708",
+                        "adjustedEnd": "0:03:43.75",
+                        "start": "0:03:43.708",
+                        "end": "0:03:43.75"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:03:42.708",
+                "adjustedEnd": "0:03:45.125",
+                "start": "0:03:42.708",
+                "end": "0:03:45.125"
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "tags": [
+            "Medium",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 65,
+                "instances": [
+                    {
+                        "thumbnailId": "0335e470-f11a-4bcd-b593-58a4402a93e3",
+                        "adjustedStart": "0:03:45.125",
+                        "adjustedEnd": "0:03:45.167",
+                        "start": "0:03:45.125",
+                        "end": "0:03:45.167"
+                    }
+                ]
+            },
+            {
+                "id": 66,
+                "instances": [
+                    {
+                        "thumbnailId": "de147579-ee4c-4008-94eb-8c6d592f5ab4",
+                        "adjustedStart": "0:03:50.583",
+                        "adjustedEnd": "0:03:50.625",
+                        "start": "0:03:50.583",
+                        "end": "0:03:50.625"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:03:45.125",
+                "adjustedEnd": "0:03:54.875",
+                "start": "0:03:45.125",
+                "end": "0:03:54.875"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "tags": [
+            "CloseUp",
+            "LeftFace",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 67,
+                "instances": [
+                    {
+                        "thumbnailId": "acf5c187-2eb3-45f6-bdb2-32c0d58c1a08",
+                        "adjustedStart": "0:03:54.875",
+                        "adjustedEnd": "0:03:54.917",
+                        "start": "0:03:54.875",
+                        "end": "0:03:54.917"
+                    }
+                ]
+            },
+            {
+                "id": 68,
+                "instances": [
+                    {
+                        "thumbnailId": "625f0f11-9c8d-406f-802a-827ca461749a",
+                        "adjustedStart": "0:03:58.083",
+                        "adjustedEnd": "0:03:58.125",
+                        "start": "0:03:58.083",
+                        "end": "0:03:58.125"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:03:54.875",
+                "adjustedEnd": "0:03:58.708",
+                "start": "0:03:54.875",
+                "end": "0:03:58.708"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "tags": [
+            "Medium",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 69,
+                "instances": [
+                    {
+                        "thumbnailId": "94df590d-37d1-414e-872c-9626a20bef5d",
+                        "adjustedStart": "0:03:58.708",
+                        "adjustedEnd": "0:03:58.75",
+                        "start": "0:03:58.708",
+                        "end": "0:03:58.75"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:03:58.708",
+                "adjustedEnd": "0:04:13.708",
+                "start": "0:03:58.708",
+                "end": "0:04:13.708"
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "tags": [
+            "Indoor",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 70,
+                "instances": [
+                    {
+                        "thumbnailId": "0cbef52d-d78f-488f-b925-3fe789858698",
+                        "adjustedStart": "0:04:13.708",
+                        "adjustedEnd": "0:04:13.75",
+                        "start": "0:04:13.708",
+                        "end": "0:04:13.75"
+                    }
+                ]
+            },
+            {
+                "id": 71,
+                "instances": [
+                    {
+                        "thumbnailId": "fae7f90c-bb40-4d6a-99f3-47e92085b482",
+                        "adjustedStart": "0:04:16.333",
+                        "adjustedEnd": "0:04:16.375",
+                        "start": "0:04:16.333",
+                        "end": "0:04:16.375"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:04:13.708",
+                "adjustedEnd": "0:04:20.083",
+                "start": "0:04:13.708",
+                "end": "0:04:20.083"
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "tags": [
+            "Wide",
+            "CenterFace",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 72,
+                "instances": [
+                    {
+                        "thumbnailId": "e5e9888e-4b4c-4169-a788-33eeb61e466a",
+                        "adjustedStart": "0:04:20.083",
+                        "adjustedEnd": "0:04:20.125",
+                        "start": "0:04:20.083",
+                        "end": "0:04:20.125"
+                    }
+                ]
+            },
+            {
+                "id": 73,
+                "instances": [
+                    {
+                        "thumbnailId": "cc06bebc-8c68-4d04-be4b-363193758ea9",
+                        "adjustedStart": "0:04:34.125",
+                        "adjustedEnd": "0:04:34.167",
+                        "start": "0:04:34.125",
+                        "end": "0:04:34.167"
+                    }
+                ]
+            },
+            {
+                "id": 74,
+                "instances": [
+                    {
+                        "thumbnailId": "6bcf30fb-9701-45fb-a320-5f673bb63dc8",
+                        "adjustedStart": "0:04:39.708",
+                        "adjustedEnd": "0:04:39.75",
+                        "start": "0:04:39.708",
+                        "end": "0:04:39.75"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:04:20.083",
+                "adjustedEnd": "0:04:49.583",
+                "start": "0:04:20.083",
+                "end": "0:04:49.583"
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "tags": [
+            "Medium",
+            "CenterFace",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 75,
+                "instances": [
+                    {
+                        "thumbnailId": "8963f909-2205-4380-84cb-64150956b63b",
+                        "adjustedStart": "0:04:49.583",
+                        "adjustedEnd": "0:04:49.625",
+                        "start": "0:04:49.583",
+                        "end": "0:04:49.625"
+                    }
+                ]
+            },
+            {
+                "id": 76,
+                "instances": [
+                    {
+                        "thumbnailId": "fdd1a016-cc2f-4f12-95a2-ee22d03e554c",
+                        "adjustedStart": "0:04:52",
+                        "adjustedEnd": "0:04:52.042",
+                        "start": "0:04:52",
+                        "end": "0:04:52.042"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:04:49.583",
+                "adjustedEnd": "0:04:55.417",
+                "start": "0:04:49.583",
+                "end": "0:04:55.417"
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 77,
+                "instances": [
+                    {
+                        "thumbnailId": "2b07dbf4-22f2-4b66-9d15-e44f38231dbe",
+                        "adjustedStart": "0:04:55.417",
+                        "adjustedEnd": "0:04:55.459",
+                        "start": "0:04:55.417",
+                        "end": "0:04:55.459"
+                    }
+                ]
+            },
+            {
+                "id": 78,
+                "instances": [
+                    {
+                        "thumbnailId": "d65d3a81-95b3-4cac-b3a7-f2491ef54c8d",
+                        "adjustedStart": "0:04:55.875",
+                        "adjustedEnd": "0:04:55.917",
+                        "start": "0:04:55.875",
+                        "end": "0:04:55.917"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:04:55.417",
+                "adjustedEnd": "0:04:56.792",
+                "start": "0:04:55.417",
+                "end": "0:04:56.792"
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "tags": [
+            "Medium",
+            "CenterFace",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 79,
+                "instances": [
+                    {
+                        "thumbnailId": "b6b5ffed-39c2-4742-a17c-0d24a7fd9bf0",
+                        "adjustedStart": "0:04:56.792",
+                        "adjustedEnd": "0:04:56.834",
+                        "start": "0:04:56.792",
+                        "end": "0:04:56.834"
+                    }
+                ]
+            },
+            {
+                "id": 80,
+                "instances": [
+                    {
+                        "thumbnailId": "8c7a5e5d-82ea-41b4-8b34-60222610a0a4",
+                        "adjustedStart": "0:04:57.5",
+                        "adjustedEnd": "0:04:57.542",
+                        "start": "0:04:57.5",
+                        "end": "0:04:57.542"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:04:56.792",
+                "adjustedEnd": "0:04:59",
+                "start": "0:04:56.792",
+                "end": "0:04:59"
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "keyFrames": [
+            {
+                "id": 81,
+                "instances": [
+                    {
+                        "thumbnailId": "b4989aa5-cc19-420f-a135-7bc07642414a",
+                        "adjustedStart": "0:04:59",
+                        "adjustedEnd": "0:04:59.042",
+                        "start": "0:04:59",
+                        "end": "0:04:59.042"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:04:59",
+                "adjustedEnd": "0:05:00.917",
+                "start": "0:04:59",
+                "end": "0:05:00.917"
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "keyFrames": [
+            {
+                "id": 82,
+                "instances": [
+                    {
+                        "thumbnailId": "cfc5a69d-ea4f-422e-9eb6-9837c55a9374",
+                        "adjustedStart": "0:05:00.917",
+                        "adjustedEnd": "0:05:00.959",
+                        "start": "0:05:00.917",
+                        "end": "0:05:00.959"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:05:00.917",
+                "adjustedEnd": "0:05:03",
+                "start": "0:05:00.917",
+                "end": "0:05:03"
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "tags": [
+            "CloseUp",
+            "RightFace",
+            "Outdoor",
+            "CenterFace",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 83,
+                "instances": [
+                    {
+                        "thumbnailId": "0154a0c6-c5fa-4ff0-9071-161578b3b6a6",
+                        "adjustedStart": "0:05:03",
+                        "adjustedEnd": "0:05:03.042",
+                        "start": "0:05:03",
+                        "end": "0:05:03.042"
+                    }
+                ]
+            },
+            {
+                "id": 84,
+                "instances": [
+                    {
+                        "thumbnailId": "2d065054-ccb5-49bd-aea3-f4c11e0aa703",
+                        "adjustedStart": "0:05:06.25",
+                        "adjustedEnd": "0:05:06.292",
+                        "start": "0:05:06.25",
+                        "end": "0:05:06.292"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:05:03",
+                "adjustedEnd": "0:05:07.708",
+                "start": "0:05:03",
+                "end": "0:05:07.708"
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "tags": [
+            "CloseUp",
+            "CenterFace",
+            "Indoor",
+            "ExtremeCloseUp",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 85,
+                "instances": [
+                    {
+                        "thumbnailId": "b33ff5ec-3ec3-42bd-a8b6-c53515efbb92",
+                        "adjustedStart": "0:05:07.708",
+                        "adjustedEnd": "0:05:07.75",
+                        "start": "0:05:07.708",
+                        "end": "0:05:07.75"
+                    }
+                ]
+            },
+            {
+                "id": 86,
+                "instances": [
+                    {
+                        "thumbnailId": "15c0f736-de35-48c0-983c-544b503620c6",
+                        "adjustedStart": "0:05:09",
+                        "adjustedEnd": "0:05:09.042",
+                        "start": "0:05:09",
+                        "end": "0:05:09.042"
+                    }
+                ]
+            },
+            {
+                "id": 87,
+                "instances": [
+                    {
+                        "thumbnailId": "888189cc-0088-4089-9bf3-a26961b95572",
+                        "adjustedStart": "0:05:09.542",
+                        "adjustedEnd": "0:05:09.584",
+                        "start": "0:05:09.542",
+                        "end": "0:05:09.584"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:05:07.708",
+                "adjustedEnd": "0:05:10.625",
+                "start": "0:05:07.708",
+                "end": "0:05:10.625"
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "tags": [
+            "CloseUp",
+            "CenterFace",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 88,
+                "instances": [
+                    {
+                        "thumbnailId": "231972ad-9a3d-44ea-9fe4-0467e94e78a5",
+                        "adjustedStart": "0:05:10.625",
+                        "adjustedEnd": "0:05:10.667",
+                        "start": "0:05:10.625",
+                        "end": "0:05:10.667"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:05:10.625",
+                "adjustedEnd": "0:05:12.667",
+                "start": "0:05:10.625",
+                "end": "0:05:12.667"
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "tags": [
+            "CloseUp",
+            "CenterFace",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 89,
+                "instances": [
+                    {
+                        "thumbnailId": "4bbd565a-4bc2-4509-b907-6f49fccb599c",
+                        "adjustedStart": "0:05:12.667",
+                        "adjustedEnd": "0:05:12.709",
+                        "start": "0:05:12.667",
+                        "end": "0:05:12.709"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:05:12.667",
+                "adjustedEnd": "0:05:15.667",
+                "start": "0:05:12.667",
+                "end": "0:05:15.667"
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "tags": [
+            "CloseUp",
+            "ExtremeCloseUp"
+        ],
+        "keyFrames": [
+            {
+                "id": 90,
+                "instances": [
+                    {
+                        "thumbnailId": "a04bed68-4a74-41e9-b150-45cc289bb1e9",
+                        "adjustedStart": "0:05:15.667",
+                        "adjustedEnd": "0:05:15.709",
+                        "start": "0:05:15.667",
+                        "end": "0:05:15.709"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:05:15.667",
+                "adjustedEnd": "0:05:20",
+                "start": "0:05:15.667",
+                "end": "0:05:20"
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "tags": [
+            "ExtremeCloseUp",
+            "CenterFace",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 91,
+                "instances": [
+                    {
+                        "thumbnailId": "682bc15a-9a14-4ea6-a152-200c2075ba8b",
+                        "adjustedStart": "0:05:20",
+                        "adjustedEnd": "0:05:20.042",
+                        "start": "0:05:20",
+                        "end": "0:05:20.042"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:05:20",
+                "adjustedEnd": "0:05:22.5",
+                "start": "0:05:20",
+                "end": "0:05:22.5"
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "tags": [
+            "CloseUp",
+            "LeftFace",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 92,
+                "instances": [
+                    {
+                        "thumbnailId": "8cdb8100-f866-4ec4-87bf-207d3fab6937",
+                        "adjustedStart": "0:05:22.5",
+                        "adjustedEnd": "0:05:22.542",
+                        "start": "0:05:22.5",
+                        "end": "0:05:22.542"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:05:22.5",
+                "adjustedEnd": "0:05:24.375",
+                "start": "0:05:22.5",
+                "end": "0:05:24.375"
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "tags": [
+            "CloseUp",
+            "ExtremeCloseUp"
+        ],
+        "keyFrames": [
+            {
+                "id": 93,
+                "instances": [
+                    {
+                        "thumbnailId": "457cce00-177c-49e5-b7ee-c3eee43a6eed",
+                        "adjustedStart": "0:05:24.375",
+                        "adjustedEnd": "0:05:24.417",
+                        "start": "0:05:24.375",
+                        "end": "0:05:24.417"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:05:24.375",
+                "adjustedEnd": "0:05:28.75",
+                "start": "0:05:24.375",
+                "end": "0:05:28.75"
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "tags": [
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 94,
+                "instances": [
+                    {
+                        "thumbnailId": "6806b91e-e0b0-428d-a50e-90d6fbbd778d",
+                        "adjustedStart": "0:05:28.75",
+                        "adjustedEnd": "0:05:28.792",
+                        "start": "0:05:28.75",
+                        "end": "0:05:28.792"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:05:28.75",
+                "adjustedEnd": "0:05:30.333",
+                "start": "0:05:28.75",
+                "end": "0:05:30.333"
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "tags": [
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 95,
+                "instances": [
+                    {
+                        "thumbnailId": "e44282cd-18d2-4684-82af-ef7eaef6b08f",
+                        "adjustedStart": "0:05:30.333",
+                        "adjustedEnd": "0:05:30.375",
+                        "start": "0:05:30.333",
+                        "end": "0:05:30.375"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:05:30.333",
+                "adjustedEnd": "0:05:39.208",
+                "start": "0:05:30.333",
+                "end": "0:05:39.208"
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "tags": [
+            "CloseUp",
+            "CenterFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 96,
+                "instances": [
+                    {
+                        "thumbnailId": "4cd61ba6-8549-4967-8d6f-d366c3432151",
+                        "adjustedStart": "0:05:39.208",
+                        "adjustedEnd": "0:05:39.25",
+                        "start": "0:05:39.208",
+                        "end": "0:05:39.25"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:05:39.208",
+                "adjustedEnd": "0:05:41.25",
+                "start": "0:05:39.208",
+                "end": "0:05:41.25"
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "tags": [
+            "Indoor",
+            "ExtremeCloseUp",
+            "CenterFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 97,
+                "instances": [
+                    {
+                        "thumbnailId": "4fc55aa9-f67f-4f6a-a1da-074b3cd77e15",
+                        "adjustedStart": "0:05:41.25",
+                        "adjustedEnd": "0:05:41.292",
+                        "start": "0:05:41.25",
+                        "end": "0:05:41.292"
+                    }
+                ]
+            },
+            {
+                "id": 98,
+                "instances": [
+                    {
+                        "thumbnailId": "25ec21e5-21f6-4fed-80e1-7f19ea35c07d",
+                        "adjustedStart": "0:05:43.583",
+                        "adjustedEnd": "0:05:43.625",
+                        "start": "0:05:43.583",
+                        "end": "0:05:43.625"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:05:41.25",
+                "adjustedEnd": "0:05:46.75",
+                "start": "0:05:41.25",
+                "end": "0:05:46.75"
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "tags": [
+            "ExtremeCloseUp",
+            "CenterFace",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 99,
+                "instances": [
+                    {
+                        "thumbnailId": "81f57831-15c1-4e31-80f5-eca12a1574d6",
+                        "adjustedStart": "0:05:46.75",
+                        "adjustedEnd": "0:05:46.792",
+                        "start": "0:05:46.75",
+                        "end": "0:05:46.792"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:05:46.75",
+                "adjustedEnd": "0:05:48.708",
+                "start": "0:05:46.75",
+                "end": "0:05:48.708"
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "tags": [
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 100,
+                "instances": [
+                    {
+                        "thumbnailId": "7b0ac48e-089e-4300-b204-2f4ca6f0503a",
+                        "adjustedStart": "0:05:48.708",
+                        "adjustedEnd": "0:05:48.75",
+                        "start": "0:05:48.708",
+                        "end": "0:05:48.75"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:05:48.708",
+                "adjustedEnd": "0:05:50.25",
+                "start": "0:05:48.708",
+                "end": "0:05:50.25"
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "tags": [
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 101,
+                "instances": [
+                    {
+                        "thumbnailId": "037b2b40-aa1d-4de8-bfbf-b7be92d428cf",
+                        "adjustedStart": "0:05:50.25",
+                        "adjustedEnd": "0:05:50.292",
+                        "start": "0:05:50.25",
+                        "end": "0:05:50.292"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:05:50.25",
+                "adjustedEnd": "0:05:53",
+                "start": "0:05:50.25",
+                "end": "0:05:53"
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "tags": [
+            "ExtremeCloseUp",
+            "LeftFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 102,
+                "instances": [
+                    {
+                        "thumbnailId": "cc737cc8-e5c1-4d4f-9c5c-9e8f5d55a91d",
+                        "adjustedStart": "0:05:53",
+                        "adjustedEnd": "0:05:53.042",
+                        "start": "0:05:53",
+                        "end": "0:05:53.042"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:05:53",
+                "adjustedEnd": "0:05:56.375",
+                "start": "0:05:53",
+                "end": "0:05:56.375"
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "tags": [
+            "CloseUp",
+            "LeftFace",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 103,
+                "instances": [
+                    {
+                        "thumbnailId": "527fecb0-7a34-44f0-a10f-af3d17c0964f",
+                        "adjustedStart": "0:05:56.375",
+                        "adjustedEnd": "0:05:56.417",
+                        "start": "0:05:56.375",
+                        "end": "0:05:56.417"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:05:56.375",
+                "adjustedEnd": "0:06:02.167",
+                "start": "0:05:56.375",
+                "end": "0:06:02.167"
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "tags": [
+            "ExtremeCloseUp",
+            "CenterFace",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 104,
+                "instances": [
+                    {
+                        "thumbnailId": "ee371e19-72c7-4db8-8312-6b6b0e29507b",
+                        "adjustedStart": "0:06:02.167",
+                        "adjustedEnd": "0:06:02.209",
+                        "start": "0:06:02.167",
+                        "end": "0:06:02.209"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:02.167",
+                "adjustedEnd": "0:06:04.542",
+                "start": "0:06:02.167",
+                "end": "0:06:04.542"
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "tags": [
+            "Medium",
+            "CenterFace",
+            "ExtremeCloseUp",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 105,
+                "instances": [
+                    {
+                        "thumbnailId": "5d1385ec-a67e-44d5-ad84-44ccb76ce33a",
+                        "adjustedStart": "0:06:04.542",
+                        "adjustedEnd": "0:06:04.584",
+                        "start": "0:06:04.542",
+                        "end": "0:06:04.584"
+                    }
+                ]
+            },
+            {
+                "id": 106,
+                "instances": [
+                    {
+                        "thumbnailId": "0f2ace09-c009-4f6f-a62c-f2aad326fbd7",
+                        "adjustedStart": "0:06:07.333",
+                        "adjustedEnd": "0:06:07.375",
+                        "start": "0:06:07.333",
+                        "end": "0:06:07.375"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:04.542",
+                "adjustedEnd": "0:06:07.708",
+                "start": "0:06:04.542",
+                "end": "0:06:07.708"
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 107,
+                "instances": [
+                    {
+                        "thumbnailId": "3239ef67-a905-4d79-ab32-a00483bffd15",
+                        "adjustedStart": "0:06:07.708",
+                        "adjustedEnd": "0:06:07.75",
+                        "start": "0:06:07.708",
+                        "end": "0:06:07.75"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:07.708",
+                "adjustedEnd": "0:06:09.25",
+                "start": "0:06:07.708",
+                "end": "0:06:09.25"
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "tags": [
+            "ExtremeCloseUp",
+            "LeftFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 108,
+                "instances": [
+                    {
+                        "thumbnailId": "9f38e7dc-c80f-4a9d-a5cd-712f665e6885",
+                        "adjustedStart": "0:06:09.25",
+                        "adjustedEnd": "0:06:09.292",
+                        "start": "0:06:09.25",
+                        "end": "0:06:09.292"
+                    }
+                ]
+            },
+            {
+                "id": 109,
+                "instances": [
+                    {
+                        "thumbnailId": "80366cb2-4b8f-4ce0-8345-35a8fd3b8521",
+                        "adjustedStart": "0:06:09.833",
+                        "adjustedEnd": "0:06:09.875",
+                        "start": "0:06:09.833",
+                        "end": "0:06:09.875"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:09.25",
+                "adjustedEnd": "0:06:11.667",
+                "start": "0:06:09.25",
+                "end": "0:06:11.667"
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "tags": [
+            "Medium",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 110,
+                "instances": [
+                    {
+                        "thumbnailId": "df0233fa-905a-448f-82d5-dc61241e2ada",
+                        "adjustedStart": "0:06:11.667",
+                        "adjustedEnd": "0:06:11.709",
+                        "start": "0:06:11.667",
+                        "end": "0:06:11.709"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:11.667",
+                "adjustedEnd": "0:06:14.167",
+                "start": "0:06:11.667",
+                "end": "0:06:14.167"
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "tags": [
+            "ExtremeCloseUp",
+            "CenterFace",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 111,
+                "instances": [
+                    {
+                        "thumbnailId": "e18386b7-e42f-48a2-8e7a-577c0351888b",
+                        "adjustedStart": "0:06:14.167",
+                        "adjustedEnd": "0:06:14.209",
+                        "start": "0:06:14.167",
+                        "end": "0:06:14.209"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:14.167",
+                "adjustedEnd": "0:06:16.042",
+                "start": "0:06:14.167",
+                "end": "0:06:16.042"
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 112,
+                "instances": [
+                    {
+                        "thumbnailId": "b06eb726-77d9-4f67-8577-f9f6c13db999",
+                        "adjustedStart": "0:06:16.042",
+                        "adjustedEnd": "0:06:16.084",
+                        "start": "0:06:16.042",
+                        "end": "0:06:16.084"
+                    }
+                ]
+            },
+            {
+                "id": 113,
+                "instances": [
+                    {
+                        "thumbnailId": "8eeac3ad-a5e8-49e4-80a9-84fa97bd0ad2",
+                        "adjustedStart": "0:06:16.583",
+                        "adjustedEnd": "0:06:16.625",
+                        "start": "0:06:16.583",
+                        "end": "0:06:16.625"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:16.042",
+                "adjustedEnd": "0:06:18.042",
+                "start": "0:06:16.042",
+                "end": "0:06:18.042"
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 114,
+                "instances": [
+                    {
+                        "thumbnailId": "3bee12de-ff19-4f01-a734-63bffa54d06e",
+                        "adjustedStart": "0:06:18.042",
+                        "adjustedEnd": "0:06:18.084",
+                        "start": "0:06:18.042",
+                        "end": "0:06:18.084"
+                    }
+                ]
+            },
+            {
+                "id": 115,
+                "instances": [
+                    {
+                        "thumbnailId": "23b2489a-92ed-4020-bdb5-06cea97184fe",
+                        "adjustedStart": "0:06:19",
+                        "adjustedEnd": "0:06:19.042",
+                        "start": "0:06:19",
+                        "end": "0:06:19.042"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:18.042",
+                "adjustedEnd": "0:06:20.292",
+                "start": "0:06:18.042",
+                "end": "0:06:20.292"
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "tags": [
+            "ExtremeCloseUp",
+            "CenterFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 116,
+                "instances": [
+                    {
+                        "thumbnailId": "db76538b-659a-42a4-82a8-ea31ce54c431",
+                        "adjustedStart": "0:06:20.292",
+                        "adjustedEnd": "0:06:20.334",
+                        "start": "0:06:20.292",
+                        "end": "0:06:20.334"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:20.292",
+                "adjustedEnd": "0:06:23.167",
+                "start": "0:06:20.292",
+                "end": "0:06:23.167"
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "tags": [
+            "ExtremeCloseUp",
+            "RightFace",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 117,
+                "instances": [
+                    {
+                        "thumbnailId": "0dfeb05d-1429-4ca0-beb3-361d6c0fe26a",
+                        "adjustedStart": "0:06:23.167",
+                        "adjustedEnd": "0:06:23.209",
+                        "start": "0:06:23.167",
+                        "end": "0:06:23.209"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:23.167",
+                "adjustedEnd": "0:06:25.708",
+                "start": "0:06:23.167",
+                "end": "0:06:25.708"
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "tags": [
+            "ExtremeCloseUp",
+            "CenterFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 118,
+                "instances": [
+                    {
+                        "thumbnailId": "8860b81f-d0de-4bdf-a138-d7f6d582e639",
+                        "adjustedStart": "0:06:25.708",
+                        "adjustedEnd": "0:06:25.75",
+                        "start": "0:06:25.708",
+                        "end": "0:06:25.75"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:25.708",
+                "adjustedEnd": "0:06:27.208",
+                "start": "0:06:25.708",
+                "end": "0:06:27.208"
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "tags": [
+            "ExtremeCloseUp",
+            "RightFace",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 119,
+                "instances": [
+                    {
+                        "thumbnailId": "28a4c1b2-3069-41f7-ac05-7b0c8828a066",
+                        "adjustedStart": "0:06:27.208",
+                        "adjustedEnd": "0:06:27.25",
+                        "start": "0:06:27.208",
+                        "end": "0:06:27.25"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:27.208",
+                "adjustedEnd": "0:06:29.25",
+                "start": "0:06:27.208",
+                "end": "0:06:29.25"
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "tags": [
+            "ExtremeCloseUp",
+            "CenterFace",
+            "RightFace",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 120,
+                "instances": [
+                    {
+                        "thumbnailId": "5586356d-1d43-4934-b61b-a49fc43ec024",
+                        "adjustedStart": "0:06:29.25",
+                        "adjustedEnd": "0:06:29.292",
+                        "start": "0:06:29.25",
+                        "end": "0:06:29.292"
+                    }
+                ]
+            },
+            {
+                "id": 121,
+                "instances": [
+                    {
+                        "thumbnailId": "24ca026a-f022-41f6-a269-7815532eddec",
+                        "adjustedStart": "0:06:30.167",
+                        "adjustedEnd": "0:06:30.209",
+                        "start": "0:06:30.167",
+                        "end": "0:06:30.209"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:29.25",
+                "adjustedEnd": "0:06:32.792",
+                "start": "0:06:29.25",
+                "end": "0:06:32.792"
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "tags": [
+            "ExtremeCloseUp",
+            "LeftFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 122,
+                "instances": [
+                    {
+                        "thumbnailId": "8cf63d16-9452-4e36-bfee-6bbbeb4f186e",
+                        "adjustedStart": "0:06:32.792",
+                        "adjustedEnd": "0:06:32.834",
+                        "start": "0:06:32.792",
+                        "end": "0:06:32.834"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:32.792",
+                "adjustedEnd": "0:06:39.292",
+                "start": "0:06:32.792",
+                "end": "0:06:39.292"
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "tags": [
+            "ExtremeCloseUp",
+            "CenterFace",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 123,
+                "instances": [
+                    {
+                        "thumbnailId": "32fb02d0-05e8-4f2e-8075-0b23fd79b237",
+                        "adjustedStart": "0:06:39.292",
+                        "adjustedEnd": "0:06:39.334",
+                        "start": "0:06:39.292",
+                        "end": "0:06:39.334"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:39.292",
+                "adjustedEnd": "0:06:40.458",
+                "start": "0:06:39.292",
+                "end": "0:06:40.458"
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "tags": [
+            "Medium",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 124,
+                "instances": [
+                    {
+                        "thumbnailId": "2b47706c-3d68-43fe-bab6-f1a25e994df8",
+                        "adjustedStart": "0:06:40.458",
+                        "adjustedEnd": "0:06:40.5",
+                        "start": "0:06:40.458",
+                        "end": "0:06:40.5"
+                    }
+                ]
+            },
+            {
+                "id": 125,
+                "instances": [
+                    {
+                        "thumbnailId": "e678bb95-9ac7-4dc0-a796-be55eb230d2b",
+                        "adjustedStart": "0:06:42.708",
+                        "adjustedEnd": "0:06:42.75",
+                        "start": "0:06:42.708",
+                        "end": "0:06:42.75"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:40.458",
+                "adjustedEnd": "0:06:44.333",
+                "start": "0:06:40.458",
+                "end": "0:06:44.333"
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "tags": [
+            "ExtremeCloseUp",
+            "LeftFace",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 126,
+                "instances": [
+                    {
+                        "thumbnailId": "f7223b20-1b7b-4e5e-a7ab-20d39c832620",
+                        "adjustedStart": "0:06:44.333",
+                        "adjustedEnd": "0:06:44.375",
+                        "start": "0:06:44.333",
+                        "end": "0:06:44.375"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:44.333",
+                "adjustedEnd": "0:06:49.125",
+                "start": "0:06:44.333",
+                "end": "0:06:49.125"
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "tags": [
+            "Medium",
+            "CloseUp",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 127,
+                "instances": [
+                    {
+                        "thumbnailId": "5363d571-6d19-4fbd-99a3-7e0d1c62b4d3",
+                        "adjustedStart": "0:06:49.125",
+                        "adjustedEnd": "0:06:49.167",
+                        "start": "0:06:49.125",
+                        "end": "0:06:49.167"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:49.125",
+                "adjustedEnd": "0:06:52.167",
+                "start": "0:06:49.125",
+                "end": "0:06:52.167"
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "tags": [
+            "ExtremeCloseUp",
+            "RightFace",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 128,
+                "instances": [
+                    {
+                        "thumbnailId": "0c31f065-5c99-4986-8615-0a811600cfc9",
+                        "adjustedStart": "0:06:52.167",
+                        "adjustedEnd": "0:06:52.209",
+                        "start": "0:06:52.167",
+                        "end": "0:06:52.209"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:52.167",
+                "adjustedEnd": "0:06:55.292",
+                "start": "0:06:52.167",
+                "end": "0:06:55.292"
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "tags": [
+            "Wide",
+            "CenterFace",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 129,
+                "instances": [
+                    {
+                        "thumbnailId": "3856b6c4-3d2e-4309-ad48-60ac0ee63c4d",
+                        "adjustedStart": "0:06:55.292",
+                        "adjustedEnd": "0:06:55.334",
+                        "start": "0:06:55.292",
+                        "end": "0:06:55.334"
+                    }
+                ]
+            },
+            {
+                "id": 130,
+                "instances": [
+                    {
+                        "thumbnailId": "f05d6895-a9b7-4f6b-ba70-b5cc62b64657",
+                        "adjustedStart": "0:06:56.125",
+                        "adjustedEnd": "0:06:56.167",
+                        "start": "0:06:56.125",
+                        "end": "0:06:56.167"
+                    }
+                ]
+            },
+            {
+                "id": 131,
+                "instances": [
+                    {
+                        "thumbnailId": "6352d2f2-f3d2-4c22-ad3f-6560f1c6dd37",
+                        "adjustedStart": "0:06:56.333",
+                        "adjustedEnd": "0:06:56.375",
+                        "start": "0:06:56.333",
+                        "end": "0:06:56.375"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:55.292",
+                "adjustedEnd": "0:06:56.958",
+                "start": "0:06:55.292",
+                "end": "0:06:56.958"
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "tags": [
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 132,
+                "instances": [
+                    {
+                        "thumbnailId": "ae0b0f49-d579-4df0-9e96-7fee9a928633",
+                        "adjustedStart": "0:06:56.958",
+                        "adjustedEnd": "0:06:57",
+                        "start": "0:06:56.958",
+                        "end": "0:06:57"
+                    }
+                ]
+            },
+            {
+                "id": 133,
+                "instances": [
+                    {
+                        "thumbnailId": "7bb534bf-11c1-48ac-81d1-5233c80be0a8",
+                        "adjustedStart": "0:06:57.292",
+                        "adjustedEnd": "0:06:57.334",
+                        "start": "0:06:57.292",
+                        "end": "0:06:57.334"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:56.958",
+                "adjustedEnd": "0:06:59.083",
+                "start": "0:06:56.958",
+                "end": "0:06:59.083"
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "tags": [
+            "CloseUp",
+            "CenterFace",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 134,
+                "instances": [
+                    {
+                        "thumbnailId": "ea80422f-133f-452c-b494-43fbeb9e6de9",
+                        "adjustedStart": "0:06:59.083",
+                        "adjustedEnd": "0:06:59.125",
+                        "start": "0:06:59.083",
+                        "end": "0:06:59.125"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:06:59.083",
+                "adjustedEnd": "0:07:04.333",
+                "start": "0:06:59.083",
+                "end": "0:07:04.333"
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "tags": [
+            "ExtremeCloseUp",
+            "RightFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 135,
+                "instances": [
+                    {
+                        "thumbnailId": "ab65cb70-7e44-414b-a63f-01eaa71622c5",
+                        "adjustedStart": "0:07:04.333",
+                        "adjustedEnd": "0:07:04.375",
+                        "start": "0:07:04.333",
+                        "end": "0:07:04.375"
+                    }
+                ]
+            },
+            {
+                "id": 136,
+                "instances": [
+                    {
+                        "thumbnailId": "4ef144fc-3641-40ea-9a04-963378e8d091",
+                        "adjustedStart": "0:07:05.5",
+                        "adjustedEnd": "0:07:05.542",
+                        "start": "0:07:05.5",
+                        "end": "0:07:05.542"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:07:04.333",
+                "adjustedEnd": "0:07:08.083",
+                "start": "0:07:04.333",
+                "end": "0:07:08.083"
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "tags": [
+            "CloseUp",
+            "CenterFace",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 137,
+                "instances": [
+                    {
+                        "thumbnailId": "7aa41589-922a-40c5-91df-36f2a40e738f",
+                        "adjustedStart": "0:07:08.083",
+                        "adjustedEnd": "0:07:08.125",
+                        "start": "0:07:08.083",
+                        "end": "0:07:08.125"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:07:08.083",
+                "adjustedEnd": "0:07:11.875",
+                "start": "0:07:08.083",
+                "end": "0:07:11.875"
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "tags": [
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 138,
+                "instances": [
+                    {
+                        "thumbnailId": "7286ef7b-a8c7-412a-acf9-916944727f3b",
+                        "adjustedStart": "0:07:11.875",
+                        "adjustedEnd": "0:07:11.917",
+                        "start": "0:07:11.875",
+                        "end": "0:07:11.917"
+                    }
+                ]
+            },
+            {
+                "id": 139,
+                "instances": [
+                    {
+                        "thumbnailId": "99ef34e8-d345-43e7-9a89-a4ba7dddbf99",
+                        "adjustedStart": "0:07:12.917",
+                        "adjustedEnd": "0:07:12.959",
+                        "start": "0:07:12.917",
+                        "end": "0:07:12.959"
+                    }
+                ]
+            },
+            {
+                "id": 140,
+                "instances": [
+                    {
+                        "thumbnailId": "415d885e-fe47-454e-b5e0-1f7e354cce95",
+                        "adjustedStart": "0:07:13.917",
+                        "adjustedEnd": "0:07:13.959",
+                        "start": "0:07:13.917",
+                        "end": "0:07:13.959"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:07:11.875",
+                "adjustedEnd": "0:07:14.208",
+                "start": "0:07:11.875",
+                "end": "0:07:14.208"
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "keyFrames": [
+            {
+                "id": 141,
+                "instances": [
+                    {
+                        "thumbnailId": "963dd542-e4b6-418e-b4e0-4191a8aaff7f",
+                        "adjustedStart": "0:07:14.208",
+                        "adjustedEnd": "0:07:14.25",
+                        "start": "0:07:14.208",
+                        "end": "0:07:14.25"
+                    }
+                ]
+            },
+            {
+                "id": 142,
+                "instances": [
+                    {
+                        "thumbnailId": "f4deb521-c08c-4d43-8a42-01159dcd1f30",
+                        "adjustedStart": "0:07:16.667",
+                        "adjustedEnd": "0:07:16.709",
+                        "start": "0:07:16.667",
+                        "end": "0:07:16.709"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:07:14.208",
+                "adjustedEnd": "0:07:17.125",
+                "start": "0:07:14.208",
+                "end": "0:07:17.125"
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "tags": [
+            "Medium",
+            "CenterFace",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 143,
+                "instances": [
+                    {
+                        "thumbnailId": "2706743e-f691-4416-823a-996bf3b0a82a",
+                        "adjustedStart": "0:07:17.125",
+                        "adjustedEnd": "0:07:17.167",
+                        "start": "0:07:17.125",
+                        "end": "0:07:17.167"
+                    }
+                ]
+            },
+            {
+                "id": 144,
+                "instances": [
+                    {
+                        "thumbnailId": "f7f0084d-ddc1-4b85-940d-c89543a68d04",
+                        "adjustedStart": "0:07:17.5",
+                        "adjustedEnd": "0:07:17.542",
+                        "start": "0:07:17.5",
+                        "end": "0:07:17.542"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:07:17.125",
+                "adjustedEnd": "0:07:18.875",
+                "start": "0:07:17.125",
+                "end": "0:07:18.875"
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "tags": [
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 145,
+                "instances": [
+                    {
+                        "thumbnailId": "1e40e89f-4f79-4782-8e98-0974bf2e3224",
+                        "adjustedStart": "0:07:18.875",
+                        "adjustedEnd": "0:07:18.917",
+                        "start": "0:07:18.875",
+                        "end": "0:07:18.917"
+                    }
+                ]
+            },
+            {
+                "id": 146,
+                "instances": [
+                    {
+                        "thumbnailId": "d9fabe2c-fd30-453e-aa65-c4b3ecd31dd0",
+                        "adjustedStart": "0:07:20.375",
+                        "adjustedEnd": "0:07:20.417",
+                        "start": "0:07:20.375",
+                        "end": "0:07:20.417"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:07:18.875",
+                "adjustedEnd": "0:07:21.25",
+                "start": "0:07:18.875",
+                "end": "0:07:21.25"
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "tags": [
+            "Outdoor",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 147,
+                "instances": [
+                    {
+                        "thumbnailId": "f6819514-b88b-47e8-b0cb-23f9e10c7ced",
+                        "adjustedStart": "0:07:21.25",
+                        "adjustedEnd": "0:07:21.292",
+                        "start": "0:07:21.25",
+                        "end": "0:07:21.292"
+                    }
+                ]
+            },
+            {
+                "id": 148,
+                "instances": [
+                    {
+                        "thumbnailId": "0806d890-2ddf-49a6-8864-70bb5d45d8aa",
+                        "adjustedStart": "0:07:23.125",
+                        "adjustedEnd": "0:07:23.167",
+                        "start": "0:07:23.125",
+                        "end": "0:07:23.167"
+                    }
+                ]
+            },
+            {
+                "id": 149,
+                "instances": [
+                    {
+                        "thumbnailId": "539b8f9f-cc61-4cb3-9b32-ef5fb0af3c8d",
+                        "adjustedStart": "0:07:24.083",
+                        "adjustedEnd": "0:07:24.125",
+                        "start": "0:07:24.083",
+                        "end": "0:07:24.125"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:07:21.25",
+                "adjustedEnd": "0:07:24.917",
+                "start": "0:07:21.25",
+                "end": "0:07:24.917"
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "tags": [
+            "CloseUp",
+            "CenterFace",
+            "Medium",
+            "LeftFace",
+            "Outdoor",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 150,
+                "instances": [
+                    {
+                        "thumbnailId": "600fe34e-86ff-4c24-a519-b7cce23d4eac",
+                        "adjustedStart": "0:07:24.917",
+                        "adjustedEnd": "0:07:24.959",
+                        "start": "0:07:24.917",
+                        "end": "0:07:24.959"
+                    }
+                ]
+            },
+            {
+                "id": 151,
+                "instances": [
+                    {
+                        "thumbnailId": "204a0ae8-2dcc-432c-83b2-063fc0278657",
+                        "adjustedStart": "0:07:33.875",
+                        "adjustedEnd": "0:07:33.917",
+                        "start": "0:07:33.875",
+                        "end": "0:07:33.917"
+                    }
+                ]
+            },
+            {
+                "id": 152,
+                "instances": [
+                    {
+                        "thumbnailId": "16146b6f-8f79-4512-8794-d91c69438d58",
+                        "adjustedStart": "0:07:39.583",
+                        "adjustedEnd": "0:07:39.625",
+                        "start": "0:07:39.583",
+                        "end": "0:07:39.625"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:07:24.917",
+                "adjustedEnd": "0:07:42.083",
+                "start": "0:07:24.917",
+                "end": "0:07:42.083"
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "tags": [
+            "Medium",
+            "CenterFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 153,
+                "instances": [
+                    {
+                        "thumbnailId": "26bc07f1-fca5-4350-ba79-1daf91862cdc",
+                        "adjustedStart": "0:07:42.083",
+                        "adjustedEnd": "0:07:42.125",
+                        "start": "0:07:42.083",
+                        "end": "0:07:42.125"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:07:42.083",
+                "adjustedEnd": "0:07:45",
+                "start": "0:07:42.083",
+                "end": "0:07:45"
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 154,
+                "instances": [
+                    {
+                        "thumbnailId": "92d4bce7-895c-4fb7-adc2-a962d2f2b4a4",
+                        "adjustedStart": "0:07:45",
+                        "adjustedEnd": "0:07:45.042",
+                        "start": "0:07:45",
+                        "end": "0:07:45.042"
+                    }
+                ]
+            },
+            {
+                "id": 155,
+                "instances": [
+                    {
+                        "thumbnailId": "117a0df2-497a-4216-8396-4ea926989185",
+                        "adjustedStart": "0:07:45.542",
+                        "adjustedEnd": "0:07:45.584",
+                        "start": "0:07:45.542",
+                        "end": "0:07:45.584"
+                    }
+                ]
+            },
+            {
+                "id": 156,
+                "instances": [
+                    {
+                        "thumbnailId": "33568877-9576-4bf3-811b-67cb199c68ef",
+                        "adjustedStart": "0:07:46.208",
+                        "adjustedEnd": "0:07:46.25",
+                        "start": "0:07:46.208",
+                        "end": "0:07:46.25"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:07:45",
+                "adjustedEnd": "0:07:46.458",
+                "start": "0:07:45",
+                "end": "0:07:46.458"
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "keyFrames": [
+            {
+                "id": 157,
+                "instances": [
+                    {
+                        "thumbnailId": "6e701762-e5d8-4c78-89ce-ddda82f2e3e7",
+                        "adjustedStart": "0:07:46.458",
+                        "adjustedEnd": "0:07:46.5",
+                        "start": "0:07:46.458",
+                        "end": "0:07:46.5"
+                    }
+                ]
+            },
+            {
+                "id": 158,
+                "instances": [
+                    {
+                        "thumbnailId": "23021443-4411-4c94-840a-8c5e57b35ab1",
+                        "adjustedStart": "0:07:46.792",
+                        "adjustedEnd": "0:07:46.834",
+                        "start": "0:07:46.792",
+                        "end": "0:07:46.834"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:07:46.458",
+                "adjustedEnd": "0:07:48.625",
+                "start": "0:07:46.458",
+                "end": "0:07:48.625"
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "tags": [
+            "Medium",
+            "CloseUp",
+            "Indoor",
+            "ExtremeCloseUp",
+            "CenterFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 159,
+                "instances": [
+                    {
+                        "thumbnailId": "84160723-f41a-4353-b410-a0ca8c311749",
+                        "adjustedStart": "0:07:48.625",
+                        "adjustedEnd": "0:07:48.667",
+                        "start": "0:07:48.625",
+                        "end": "0:07:48.667"
+                    }
+                ]
+            },
+            {
+                "id": 160,
+                "instances": [
+                    {
+                        "thumbnailId": "831d39a4-c62e-4730-87fe-113608960070",
+                        "adjustedStart": "0:07:49.333",
+                        "adjustedEnd": "0:07:49.375",
+                        "start": "0:07:49.333",
+                        "end": "0:07:49.375"
+                    }
+                ]
+            },
+            {
+                "id": 161,
+                "instances": [
+                    {
+                        "thumbnailId": "5b625a1f-1430-4341-bc92-56a8004ce93d",
+                        "adjustedStart": "0:07:50.542",
+                        "adjustedEnd": "0:07:50.584",
+                        "start": "0:07:50.542",
+                        "end": "0:07:50.584"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:07:48.625",
+                "adjustedEnd": "0:07:50.75",
+                "start": "0:07:48.625",
+                "end": "0:07:50.75"
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "keyFrames": [
+            {
+                "id": 162,
+                "instances": [
+                    {
+                        "thumbnailId": "840fd815-a9cc-4db1-8218-36acc3760675",
+                        "adjustedStart": "0:07:50.75",
+                        "adjustedEnd": "0:07:50.792",
+                        "start": "0:07:50.75",
+                        "end": "0:07:50.792"
+                    }
+                ]
+            },
+            {
+                "id": 163,
+                "instances": [
+                    {
+                        "thumbnailId": "21dd20c0-e2f8-4546-9aa7-7bbbcad6a1de",
+                        "adjustedStart": "0:07:52",
+                        "adjustedEnd": "0:07:52.042",
+                        "start": "0:07:52",
+                        "end": "0:07:52.042"
+                    }
+                ]
+            },
+            {
+                "id": 164,
+                "instances": [
+                    {
+                        "thumbnailId": "2ca4966d-3a56-479e-9776-7e5090ca29a8",
+                        "adjustedStart": "0:07:52.792",
+                        "adjustedEnd": "0:07:52.834",
+                        "start": "0:07:52.792",
+                        "end": "0:07:52.834"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:07:50.75",
+                "adjustedEnd": "0:07:53.167",
+                "start": "0:07:50.75",
+                "end": "0:07:53.167"
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 165,
+                "instances": [
+                    {
+                        "thumbnailId": "2b4e76b8-8e1c-4ab3-9396-057b58656f67",
+                        "adjustedStart": "0:07:53.167",
+                        "adjustedEnd": "0:07:53.209",
+                        "start": "0:07:53.167",
+                        "end": "0:07:53.209"
+                    }
+                ]
+            },
+            {
+                "id": 166,
+                "instances": [
+                    {
+                        "thumbnailId": "ced61f75-3e5c-4bb8-80b7-7a5bc1091b23",
+                        "adjustedStart": "0:07:57.917",
+                        "adjustedEnd": "0:07:57.959",
+                        "start": "0:07:57.917",
+                        "end": "0:07:57.959"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:07:53.167",
+                "adjustedEnd": "0:07:59.958",
+                "start": "0:07:53.167",
+                "end": "0:07:59.958"
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 167,
+                "instances": [
+                    {
+                        "thumbnailId": "865d6edf-366e-408a-8562-1934d230ccef",
+                        "adjustedStart": "0:07:59.958",
+                        "adjustedEnd": "0:08:00",
+                        "start": "0:07:59.958",
+                        "end": "0:08:00"
+                    }
+                ]
+            },
+            {
+                "id": 168,
+                "instances": [
+                    {
+                        "thumbnailId": "3955ece4-fef1-4aa5-918c-eb7f7d153673",
+                        "adjustedStart": "0:08:00.583",
+                        "adjustedEnd": "0:08:00.625",
+                        "start": "0:08:00.583",
+                        "end": "0:08:00.625"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:07:59.958",
+                "adjustedEnd": "0:08:02.417",
+                "start": "0:07:59.958",
+                "end": "0:08:02.417"
+            }
+        ]
+    },
+    {
+        "id": 107,
+        "tags": [
+            "Medium",
+            "CenterFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 169,
+                "instances": [
+                    {
+                        "thumbnailId": "8b7a6405-bcf5-49e3-a0c0-1594bd8423e5",
+                        "adjustedStart": "0:08:02.417",
+                        "adjustedEnd": "0:08:02.459",
+                        "start": "0:08:02.417",
+                        "end": "0:08:02.459"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:02.417",
+                "adjustedEnd": "0:08:03.458",
+                "start": "0:08:02.417",
+                "end": "0:08:03.458"
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "tags": [
+            "ExtremeCloseUp",
+            "RightFace",
+            "Indoor",
+            "CenterFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 170,
+                "instances": [
+                    {
+                        "thumbnailId": "f7baff85-ae3d-4007-a867-7049051d8875",
+                        "adjustedStart": "0:08:03.458",
+                        "adjustedEnd": "0:08:03.5",
+                        "start": "0:08:03.458",
+                        "end": "0:08:03.5"
+                    }
+                ]
+            },
+            {
+                "id": 171,
+                "instances": [
+                    {
+                        "thumbnailId": "2b235049-74ae-4b90-8fcf-b025b9ab0764",
+                        "adjustedStart": "0:08:04.375",
+                        "adjustedEnd": "0:08:04.417",
+                        "start": "0:08:04.375",
+                        "end": "0:08:04.417"
+                    }
+                ]
+            },
+            {
+                "id": 172,
+                "instances": [
+                    {
+                        "thumbnailId": "094f9f8c-389a-4d4f-9c37-6368a35b645e",
+                        "adjustedStart": "0:08:05.25",
+                        "adjustedEnd": "0:08:05.292",
+                        "start": "0:08:05.25",
+                        "end": "0:08:05.292"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:03.458",
+                "adjustedEnd": "0:08:05.542",
+                "start": "0:08:03.458",
+                "end": "0:08:05.542"
+            }
+        ]
+    },
+    {
+        "id": 109,
+        "keyFrames": [
+            {
+                "id": 173,
+                "instances": [
+                    {
+                        "thumbnailId": "3dcbcc44-a739-4df1-ab1b-9ee4369ce302",
+                        "adjustedStart": "0:08:05.542",
+                        "adjustedEnd": "0:08:05.584",
+                        "start": "0:08:05.542",
+                        "end": "0:08:05.584"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:05.542",
+                "adjustedEnd": "0:08:08.333",
+                "start": "0:08:05.542",
+                "end": "0:08:08.333"
+            }
+        ]
+    },
+    {
+        "id": 110,
+        "tags": [
+            "Medium",
+            "CenterFace",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 174,
+                "instances": [
+                    {
+                        "thumbnailId": "18169314-22b4-4bc6-babc-6522ec4ee897",
+                        "adjustedStart": "0:08:08.333",
+                        "adjustedEnd": "0:08:08.375",
+                        "start": "0:08:08.333",
+                        "end": "0:08:08.375"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:08.333",
+                "adjustedEnd": "0:08:09.667",
+                "start": "0:08:08.333",
+                "end": "0:08:09.667"
+            }
+        ]
+    },
+    {
+        "id": 111,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 175,
+                "instances": [
+                    {
+                        "thumbnailId": "f5de4fc5-5358-410d-a15f-2f08db1e53bc",
+                        "adjustedStart": "0:08:09.667",
+                        "adjustedEnd": "0:08:09.709",
+                        "start": "0:08:09.667",
+                        "end": "0:08:09.709"
+                    }
+                ]
+            },
+            {
+                "id": 176,
+                "instances": [
+                    {
+                        "thumbnailId": "7e409525-effb-4bcd-a696-0eb17a12de3a",
+                        "adjustedStart": "0:08:10.833",
+                        "adjustedEnd": "0:08:10.875",
+                        "start": "0:08:10.833",
+                        "end": "0:08:10.875"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:09.667",
+                "adjustedEnd": "0:08:12.125",
+                "start": "0:08:09.667",
+                "end": "0:08:12.125"
+            }
+        ]
+    },
+    {
+        "id": 112,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 177,
+                "instances": [
+                    {
+                        "thumbnailId": "8c49a0ee-aff1-46c5-9c8e-72f9fc2dcf57",
+                        "adjustedStart": "0:08:12.125",
+                        "adjustedEnd": "0:08:12.167",
+                        "start": "0:08:12.125",
+                        "end": "0:08:12.167"
+                    }
+                ]
+            },
+            {
+                "id": 178,
+                "instances": [
+                    {
+                        "thumbnailId": "51e8d61f-bf66-4402-9bcd-f75f5cd87b81",
+                        "adjustedStart": "0:08:12.333",
+                        "adjustedEnd": "0:08:12.375",
+                        "start": "0:08:12.333",
+                        "end": "0:08:12.375"
+                    }
+                ]
+            },
+            {
+                "id": 179,
+                "instances": [
+                    {
+                        "thumbnailId": "0d439cb9-4554-4a66-a8b2-ef37f5f78578",
+                        "adjustedStart": "0:08:12.542",
+                        "adjustedEnd": "0:08:12.584",
+                        "start": "0:08:12.542",
+                        "end": "0:08:12.584"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:12.125",
+                "adjustedEnd": "0:08:13.208",
+                "start": "0:08:12.125",
+                "end": "0:08:13.208"
+            }
+        ]
+    },
+    {
+        "id": 113,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 180,
+                "instances": [
+                    {
+                        "thumbnailId": "1006362e-bc5c-4c1c-af08-24f45fd35c06",
+                        "adjustedStart": "0:08:13.208",
+                        "adjustedEnd": "0:08:13.25",
+                        "start": "0:08:13.208",
+                        "end": "0:08:13.25"
+                    }
+                ]
+            },
+            {
+                "id": 181,
+                "instances": [
+                    {
+                        "thumbnailId": "242354fa-94d9-4485-822f-0eb9a0781194",
+                        "adjustedStart": "0:08:13.833",
+                        "adjustedEnd": "0:08:13.875",
+                        "start": "0:08:13.833",
+                        "end": "0:08:13.875"
+                    }
+                ]
+            },
+            {
+                "id": 182,
+                "instances": [
+                    {
+                        "thumbnailId": "4fb554f3-2420-408b-a1d3-a32373c3d360",
+                        "adjustedStart": "0:08:14.708",
+                        "adjustedEnd": "0:08:14.75",
+                        "start": "0:08:14.708",
+                        "end": "0:08:14.75"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:13.208",
+                "adjustedEnd": "0:08:15.458",
+                "start": "0:08:13.208",
+                "end": "0:08:15.458"
+            }
+        ]
+    },
+    {
+        "id": 114,
+        "keyFrames": [
+            {
+                "id": 183,
+                "instances": [
+                    {
+                        "thumbnailId": "ece8fcf0-55fe-4d12-b19f-c7403b9f01dd",
+                        "adjustedStart": "0:08:15.458",
+                        "adjustedEnd": "0:08:15.5",
+                        "start": "0:08:15.458",
+                        "end": "0:08:15.5"
+                    }
+                ]
+            },
+            {
+                "id": 184,
+                "instances": [
+                    {
+                        "thumbnailId": "bdaa59e2-c522-4a26-90f8-e13f14bdb892",
+                        "adjustedStart": "0:08:16.083",
+                        "adjustedEnd": "0:08:16.125",
+                        "start": "0:08:16.083",
+                        "end": "0:08:16.125"
+                    }
+                ]
+            },
+            {
+                "id": 185,
+                "instances": [
+                    {
+                        "thumbnailId": "2704a4d2-ba62-4f4f-9b40-f3bddae771c6",
+                        "adjustedStart": "0:08:17.125",
+                        "adjustedEnd": "0:08:17.167",
+                        "start": "0:08:17.125",
+                        "end": "0:08:17.167"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:15.458",
+                "adjustedEnd": "0:08:17.5",
+                "start": "0:08:15.458",
+                "end": "0:08:17.5"
+            }
+        ]
+    },
+    {
+        "id": 115,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 186,
+                "instances": [
+                    {
+                        "thumbnailId": "2eec4e54-6b09-471d-a790-cdb9c857e792",
+                        "adjustedStart": "0:08:17.5",
+                        "adjustedEnd": "0:08:17.542",
+                        "start": "0:08:17.5",
+                        "end": "0:08:17.542"
+                    }
+                ]
+            },
+            {
+                "id": 187,
+                "instances": [
+                    {
+                        "thumbnailId": "3da42838-6b20-46ac-ac78-ac8e29f304e6",
+                        "adjustedStart": "0:08:18.417",
+                        "adjustedEnd": "0:08:18.459",
+                        "start": "0:08:18.417",
+                        "end": "0:08:18.459"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:17.5",
+                "adjustedEnd": "0:08:19.458",
+                "start": "0:08:17.5",
+                "end": "0:08:19.458"
+            }
+        ]
+    },
+    {
+        "id": 116,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 188,
+                "instances": [
+                    {
+                        "thumbnailId": "9d1ac42d-319f-4edc-a663-9a2c5c90413c",
+                        "adjustedStart": "0:08:19.458",
+                        "adjustedEnd": "0:08:19.5",
+                        "start": "0:08:19.458",
+                        "end": "0:08:19.5"
+                    }
+                ]
+            },
+            {
+                "id": 189,
+                "instances": [
+                    {
+                        "thumbnailId": "2884790e-9065-4e5f-954b-7ad81a0625be",
+                        "adjustedStart": "0:08:19.958",
+                        "adjustedEnd": "0:08:20",
+                        "start": "0:08:19.958",
+                        "end": "0:08:20"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:19.458",
+                "adjustedEnd": "0:08:21.042",
+                "start": "0:08:19.458",
+                "end": "0:08:21.042"
+            }
+        ]
+    },
+    {
+        "id": 117,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 190,
+                "instances": [
+                    {
+                        "thumbnailId": "028b180d-0b74-4b7f-8dec-5c49e7e9c255",
+                        "adjustedStart": "0:08:21.042",
+                        "adjustedEnd": "0:08:21.084",
+                        "start": "0:08:21.042",
+                        "end": "0:08:21.084"
+                    }
+                ]
+            },
+            {
+                "id": 191,
+                "instances": [
+                    {
+                        "thumbnailId": "0cb07af7-0426-478c-abc5-a27c257a4440",
+                        "adjustedStart": "0:08:21.625",
+                        "adjustedEnd": "0:08:21.667",
+                        "start": "0:08:21.625",
+                        "end": "0:08:21.667"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:21.042",
+                "adjustedEnd": "0:08:22.667",
+                "start": "0:08:21.042",
+                "end": "0:08:22.667"
+            }
+        ]
+    },
+    {
+        "id": 118,
+        "tags": [
+            "Medium",
+            "CenterFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 192,
+                "instances": [
+                    {
+                        "thumbnailId": "5ba26ba4-fbbd-429e-a349-aa9d39cf74c0",
+                        "adjustedStart": "0:08:22.667",
+                        "adjustedEnd": "0:08:22.709",
+                        "start": "0:08:22.667",
+                        "end": "0:08:22.709"
+                    }
+                ]
+            },
+            {
+                "id": 193,
+                "instances": [
+                    {
+                        "thumbnailId": "b20e2a80-3d28-47c0-bf06-efc24580c778",
+                        "adjustedStart": "0:08:23.083",
+                        "adjustedEnd": "0:08:23.125",
+                        "start": "0:08:23.083",
+                        "end": "0:08:23.125"
+                    }
+                ]
+            },
+            {
+                "id": 194,
+                "instances": [
+                    {
+                        "thumbnailId": "9c9251cf-c80b-45f5-979b-873ca88a4e07",
+                        "adjustedStart": "0:08:23.667",
+                        "adjustedEnd": "0:08:23.709",
+                        "start": "0:08:23.667",
+                        "end": "0:08:23.709"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:22.667",
+                "adjustedEnd": "0:08:24",
+                "start": "0:08:22.667",
+                "end": "0:08:24"
+            }
+        ]
+    },
+    {
+        "id": 119,
+        "tags": [
+            "Medium",
+            "CenterFace",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 195,
+                "instances": [
+                    {
+                        "thumbnailId": "f74fdc00-0c6a-4fae-b8a7-ea3f90db72d8",
+                        "adjustedStart": "0:08:24",
+                        "adjustedEnd": "0:08:24.042",
+                        "start": "0:08:24",
+                        "end": "0:08:24.042"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:24",
+                "adjustedEnd": "0:08:25.917",
+                "start": "0:08:24",
+                "end": "0:08:25.917"
+            }
+        ]
+    },
+    {
+        "id": 120,
+        "tags": [
+            "Medium",
+            "CenterFace",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 196,
+                "instances": [
+                    {
+                        "thumbnailId": "9bc024fc-2435-467b-9b19-9e20a8671861",
+                        "adjustedStart": "0:08:25.917",
+                        "adjustedEnd": "0:08:25.959",
+                        "start": "0:08:25.917",
+                        "end": "0:08:25.959"
+                    }
+                ]
+            },
+            {
+                "id": 197,
+                "instances": [
+                    {
+                        "thumbnailId": "62958f6a-1277-48db-9be0-f99cfcdb2464",
+                        "adjustedStart": "0:08:27.875",
+                        "adjustedEnd": "0:08:27.917",
+                        "start": "0:08:27.875",
+                        "end": "0:08:27.917"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:25.917",
+                "adjustedEnd": "0:08:30.25",
+                "start": "0:08:25.917",
+                "end": "0:08:30.25"
+            }
+        ]
+    },
+    {
+        "id": 121,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 198,
+                "instances": [
+                    {
+                        "thumbnailId": "1e34be42-cd86-4919-8f6e-70e0cb4e229d",
+                        "adjustedStart": "0:08:30.25",
+                        "adjustedEnd": "0:08:30.292",
+                        "start": "0:08:30.25",
+                        "end": "0:08:30.292"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:30.25",
+                "adjustedEnd": "0:08:38.167",
+                "start": "0:08:30.25",
+                "end": "0:08:38.167"
+            }
+        ]
+    },
+    {
+        "id": 122,
+        "tags": [
+            "CloseUp",
+            "CenterFace",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 199,
+                "instances": [
+                    {
+                        "thumbnailId": "17c72273-4426-4b27-8eca-9c30e6eb09a8",
+                        "adjustedStart": "0:08:38.167",
+                        "adjustedEnd": "0:08:38.209",
+                        "start": "0:08:38.167",
+                        "end": "0:08:38.209"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:38.167",
+                "adjustedEnd": "0:08:41.208",
+                "start": "0:08:38.167",
+                "end": "0:08:41.208"
+            }
+        ]
+    },
+    {
+        "id": 123,
+        "tags": [
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 200,
+                "instances": [
+                    {
+                        "thumbnailId": "1fbc80b8-8706-4c5d-87fb-68f9ee0162d0",
+                        "adjustedStart": "0:08:41.208",
+                        "adjustedEnd": "0:08:41.25",
+                        "start": "0:08:41.208",
+                        "end": "0:08:41.25"
+                    }
+                ]
+            },
+            {
+                "id": 201,
+                "instances": [
+                    {
+                        "thumbnailId": "400d9599-56a0-4cde-8741-ef6c8d1fe41d",
+                        "adjustedStart": "0:08:45.458",
+                        "adjustedEnd": "0:08:45.5",
+                        "start": "0:08:45.458",
+                        "end": "0:08:45.5"
+                    }
+                ]
+            },
+            {
+                "id": 202,
+                "instances": [
+                    {
+                        "thumbnailId": "bc3c0303-452e-40ea-8454-e2a3da342ea1",
+                        "adjustedStart": "0:08:46.833",
+                        "adjustedEnd": "0:08:46.875",
+                        "start": "0:08:46.833",
+                        "end": "0:08:46.875"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:41.208",
+                "adjustedEnd": "0:08:47.458",
+                "start": "0:08:41.208",
+                "end": "0:08:47.458"
+            }
+        ]
+    },
+    {
+        "id": 124,
+        "keyFrames": [
+            {
+                "id": 203,
+                "instances": [
+                    {
+                        "thumbnailId": "67ed213c-620b-4307-b78e-6650550318a8",
+                        "adjustedStart": "0:08:47.458",
+                        "adjustedEnd": "0:08:47.5",
+                        "start": "0:08:47.458",
+                        "end": "0:08:47.5"
+                    }
+                ]
+            },
+            {
+                "id": 204,
+                "instances": [
+                    {
+                        "thumbnailId": "9a85aaee-fd49-41ef-bbef-a02bcc0f6409",
+                        "adjustedStart": "0:08:50.167",
+                        "adjustedEnd": "0:08:50.209",
+                        "start": "0:08:50.167",
+                        "end": "0:08:50.209"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:47.458",
+                "adjustedEnd": "0:08:51.25",
+                "start": "0:08:47.458",
+                "end": "0:08:51.25"
+            }
+        ]
+    },
+    {
+        "id": 125,
+        "tags": [
+            "CloseUp",
+            "LeftFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 205,
+                "instances": [
+                    {
+                        "thumbnailId": "4492338b-0db7-4950-a0c8-2ecb4201fa9d",
+                        "adjustedStart": "0:08:51.25",
+                        "adjustedEnd": "0:08:51.292",
+                        "start": "0:08:51.25",
+                        "end": "0:08:51.292"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:51.25",
+                "adjustedEnd": "0:08:58",
+                "start": "0:08:51.25",
+                "end": "0:08:58"
+            }
+        ]
+    },
+    {
+        "id": 126,
+        "tags": [
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 206,
+                "instances": [
+                    {
+                        "thumbnailId": "c4d7813d-e17a-4526-8749-ac0cd88fad99",
+                        "adjustedStart": "0:08:58",
+                        "adjustedEnd": "0:08:58.042",
+                        "start": "0:08:58",
+                        "end": "0:08:58.042"
+                    }
+                ]
+            },
+            {
+                "id": 207,
+                "instances": [
+                    {
+                        "thumbnailId": "2f03a28d-6e2d-486f-915e-056bf5f7fecf",
+                        "adjustedStart": "0:08:58.208",
+                        "adjustedEnd": "0:08:58.25",
+                        "start": "0:08:58.208",
+                        "end": "0:08:58.25"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:58",
+                "adjustedEnd": "0:08:59.25",
+                "start": "0:08:58",
+                "end": "0:08:59.25"
+            }
+        ]
+    },
+    {
+        "id": 127,
+        "tags": [
+            "Medium",
+            "CenterFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 208,
+                "instances": [
+                    {
+                        "thumbnailId": "a33a0e5a-0114-41ee-9b4f-af273a790535",
+                        "adjustedStart": "0:08:59.25",
+                        "adjustedEnd": "0:08:59.292",
+                        "start": "0:08:59.25",
+                        "end": "0:08:59.292"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:08:59.25",
+                "adjustedEnd": "0:09:03.208",
+                "start": "0:08:59.25",
+                "end": "0:09:03.208"
+            }
+        ]
+    },
+    {
+        "id": 128,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 209,
+                "instances": [
+                    {
+                        "thumbnailId": "ac15548a-edd6-4be8-afdf-10df1b954dea",
+                        "adjustedStart": "0:09:03.208",
+                        "adjustedEnd": "0:09:03.25",
+                        "start": "0:09:03.208",
+                        "end": "0:09:03.25"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:09:03.208",
+                "adjustedEnd": "0:09:12.875",
+                "start": "0:09:03.208",
+                "end": "0:09:12.875"
+            }
+        ]
+    },
+    {
+        "id": 129,
+        "tags": [
+            "ExtremeCloseUp",
+            "CenterFace"
+        ],
+        "keyFrames": [
+            {
+                "id": 210,
+                "instances": [
+                    {
+                        "thumbnailId": "9105b701-56fa-4c60-8dcd-626860494ce6",
+                        "adjustedStart": "0:09:12.875",
+                        "adjustedEnd": "0:09:12.917",
+                        "start": "0:09:12.875",
+                        "end": "0:09:12.917"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:09:12.875",
+                "adjustedEnd": "0:09:17.125",
+                "start": "0:09:12.875",
+                "end": "0:09:17.125"
+            }
+        ]
+    },
+    {
+        "id": 130,
+        "tags": [
+            "ExtremeCloseUp",
+            "CenterFace",
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 211,
+                "instances": [
+                    {
+                        "thumbnailId": "ce6265d5-54f4-46d0-82ef-9708a4b05c89",
+                        "adjustedStart": "0:09:17.125",
+                        "adjustedEnd": "0:09:17.167",
+                        "start": "0:09:17.125",
+                        "end": "0:09:17.167"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:09:17.125",
+                "adjustedEnd": "0:09:24.333",
+                "start": "0:09:17.125",
+                "end": "0:09:24.333"
+            }
+        ]
+    },
+    {
+        "id": 131,
+        "tags": [
+            "Indoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 212,
+                "instances": [
+                    {
+                        "thumbnailId": "b8c778bd-ac50-40c9-b170-d80a45f82556",
+                        "adjustedStart": "0:09:24.333",
+                        "adjustedEnd": "0:09:24.375",
+                        "start": "0:09:24.333",
+                        "end": "0:09:24.375"
+                    }
+                ]
+            },
+            {
+                "id": 213,
+                "instances": [
+                    {
+                        "thumbnailId": "b810dda8-afaa-4d96-aa45-3944b44ef249",
+                        "adjustedStart": "0:09:30.917",
+                        "adjustedEnd": "0:09:30.959",
+                        "start": "0:09:30.917",
+                        "end": "0:09:30.959"
+                    }
+                ]
+            },
+            {
+                "id": 214,
+                "instances": [
+                    {
+                        "thumbnailId": "05b5d996-2198-4c21-b7bc-9556c7b06dbb",
+                        "adjustedStart": "0:09:31.375",
+                        "adjustedEnd": "0:09:31.417",
+                        "start": "0:09:31.375",
+                        "end": "0:09:31.417"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:09:24.333",
+                "adjustedEnd": "0:09:32.125",
+                "start": "0:09:24.333",
+                "end": "0:09:32.125"
+            }
+        ]
+    },
+    {
+        "id": 132,
+        "keyFrames": [
+            {
+                "id": 215,
+                "instances": [
+                    {
+                        "thumbnailId": "d266566e-4c09-4f09-b70a-b2f8df6fcf64",
+                        "adjustedStart": "0:09:32.125",
+                        "adjustedEnd": "0:09:32.167",
+                        "start": "0:09:32.125",
+                        "end": "0:09:32.167"
+                    }
+                ]
+            },
+            {
+                "id": 216,
+                "instances": [
+                    {
+                        "thumbnailId": "3e225ce7-e64a-4979-8157-3cbb20a487a4",
+                        "adjustedStart": "0:09:33.042",
+                        "adjustedEnd": "0:09:33.084",
+                        "start": "0:09:33.042",
+                        "end": "0:09:33.084"
+                    }
+                ]
+            },
+            {
+                "id": 217,
+                "instances": [
+                    {
+                        "thumbnailId": "efe9198b-6837-49a6-abde-a8e1aa372842",
+                        "adjustedStart": "0:09:34.667",
+                        "adjustedEnd": "0:09:34.709",
+                        "start": "0:09:34.667",
+                        "end": "0:09:34.709"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:09:32.125",
+                "adjustedEnd": "0:09:34.833",
+                "start": "0:09:32.125",
+                "end": "0:09:34.833"
+            }
+        ]
+    },
+    {
+        "id": 133,
+        "keyFrames": [
+            {
+                "id": 218,
+                "instances": [
+                    {
+                        "thumbnailId": "0ff2c102-abe0-416e-b260-46752bf28df9",
+                        "adjustedStart": "0:09:34.833",
+                        "adjustedEnd": "0:09:34.875",
+                        "start": "0:09:34.833",
+                        "end": "0:09:34.875"
+                    }
+                ]
+            },
+            {
+                "id": 219,
+                "instances": [
+                    {
+                        "thumbnailId": "8cb984a5-9ce9-4d6b-a1c5-2886273fd660",
+                        "adjustedStart": "0:09:40.292",
+                        "adjustedEnd": "0:09:40.334",
+                        "start": "0:09:40.292",
+                        "end": "0:09:40.334"
+                    }
+                ]
+            },
+            {
+                "id": 220,
+                "instances": [
+                    {
+                        "thumbnailId": "9a72c87a-32d5-4656-996c-b3a5b97fbf9a",
+                        "adjustedStart": "0:09:46.583",
+                        "adjustedEnd": "0:09:46.625",
+                        "start": "0:09:46.583",
+                        "end": "0:09:46.625"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:09:34.833",
+                "adjustedEnd": "0:09:49.042",
+                "start": "0:09:34.833",
+                "end": "0:09:49.042"
+            }
+        ]
+    },
+    {
+        "id": 134,
+        "keyFrames": [
+            {
+                "id": 221,
+                "instances": [
+                    {
+                        "thumbnailId": "86eba3b5-f6ed-4738-89a6-b46f84dbcb85",
+                        "adjustedStart": "0:09:49.042",
+                        "adjustedEnd": "0:09:49.084",
+                        "start": "0:09:49.042",
+                        "end": "0:09:49.084"
+                    }
+                ]
+            },
+            {
+                "id": 222,
+                "instances": [
+                    {
+                        "thumbnailId": "c40fc16d-78de-4c6d-92ae-2e80209e2bf4",
+                        "adjustedStart": "0:09:49.417",
+                        "adjustedEnd": "0:09:49.459",
+                        "start": "0:09:49.417",
+                        "end": "0:09:49.459"
+                    }
+                ]
+            },
+            {
+                "id": 223,
+                "instances": [
+                    {
+                        "thumbnailId": "79ba99a2-d9c6-4633-82d7-513ada8ebbae",
+                        "adjustedStart": "0:09:54.417",
+                        "adjustedEnd": "0:09:54.459",
+                        "start": "0:09:54.417",
+                        "end": "0:09:54.459"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:09:49.042",
+                "adjustedEnd": "0:09:54.542",
+                "start": "0:09:49.042",
+                "end": "0:09:54.542"
+            }
+        ]
+    },
+    {
+        "id": 135,
+        "keyFrames": [
+            {
+                "id": 224,
+                "instances": [
+                    {
+                        "thumbnailId": "e55c5805-9974-480c-b99d-1f20b7ec3778",
+                        "adjustedStart": "0:09:54.542",
+                        "adjustedEnd": "0:09:54.584",
+                        "start": "0:09:54.542",
+                        "end": "0:09:54.584"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:09:54.542",
+                "adjustedEnd": "0:09:57.917",
+                "start": "0:09:54.542",
+                "end": "0:09:57.917"
+            }
+        ]
+    },
+    {
+        "id": 136,
+        "keyFrames": [
+            {
+                "id": 225,
+                "instances": [
+                    {
+                        "thumbnailId": "dd5c3882-0a39-4ed7-aa52-71300168f66c",
+                        "adjustedStart": "0:09:57.917",
+                        "adjustedEnd": "0:09:57.959",
+                        "start": "0:09:57.917",
+                        "end": "0:09:57.959"
+                    }
+                ]
+            },
+            {
+                "id": 226,
+                "instances": [
+                    {
+                        "thumbnailId": "b50afa41-25ca-4d9e-878d-0c82b56f477d",
+                        "adjustedStart": "0:09:58.458",
+                        "adjustedEnd": "0:09:58.5",
+                        "start": "0:09:58.458",
+                        "end": "0:09:58.5"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:09:57.917",
+                "adjustedEnd": "0:10:01.375",
+                "start": "0:09:57.917",
+                "end": "0:10:01.375"
+            }
+        ]
+    },
+    {
+        "id": 137,
+        "keyFrames": [
+            {
+                "id": 227,
+                "instances": [
+                    {
+                        "thumbnailId": "6cfd3ab3-ad2b-4c4f-bcb6-903d8ef44ff5",
+                        "adjustedStart": "0:10:01.375",
+                        "adjustedEnd": "0:10:01.417",
+                        "start": "0:10:01.375",
+                        "end": "0:10:01.417"
+                    }
+                ]
+            },
+            {
+                "id": 228,
+                "instances": [
+                    {
+                        "thumbnailId": "66bbdf64-7ee2-467b-8885-3bcad07366fb",
+                        "adjustedStart": "0:10:01.5",
+                        "adjustedEnd": "0:10:01.542",
+                        "start": "0:10:01.5",
+                        "end": "0:10:01.542"
+                    }
+                ]
+            },
+            {
+                "id": 229,
+                "instances": [
+                    {
+                        "thumbnailId": "8db3f3b8-5b7f-4044-929a-8d9c8444eb25",
+                        "adjustedStart": "0:10:04.875",
+                        "adjustedEnd": "0:10:04.917",
+                        "start": "0:10:04.875",
+                        "end": "0:10:04.917"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:10:01.375",
+                "adjustedEnd": "0:10:05.042",
+                "start": "0:10:01.375",
+                "end": "0:10:05.042"
+            }
+        ]
+    },
+    {
+        "id": 138,
+        "keyFrames": [
+            {
+                "id": 230,
+                "instances": [
+                    {
+                        "thumbnailId": "40c7c987-94f0-4f78-9a0b-66ae723a2f32",
+                        "adjustedStart": "0:10:05.042",
+                        "adjustedEnd": "0:10:05.084",
+                        "start": "0:10:05.042",
+                        "end": "0:10:05.084"
+                    }
+                ]
+            },
+            {
+                "id": 231,
+                "instances": [
+                    {
+                        "thumbnailId": "d07cdadf-aa3c-49fc-af84-26e2755065a9",
+                        "adjustedStart": "0:10:06.333",
+                        "adjustedEnd": "0:10:06.375",
+                        "start": "0:10:06.333",
+                        "end": "0:10:06.375"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:10:05.042",
+                "adjustedEnd": "0:10:10.542",
+                "start": "0:10:05.042",
+                "end": "0:10:10.542"
+            }
+        ]
+    },
+    {
+        "id": 139,
+        "keyFrames": [
+            {
+                "id": 232,
+                "instances": [
+                    {
+                        "thumbnailId": "c507d9da-46e8-4af0-9e52-97557087059f",
+                        "adjustedStart": "0:10:10.542",
+                        "adjustedEnd": "0:10:10.584",
+                        "start": "0:10:10.542",
+                        "end": "0:10:10.584"
+                    }
+                ]
+            },
+            {
+                "id": 233,
+                "instances": [
+                    {
+                        "thumbnailId": "6ccc67ab-2f02-4015-ab71-d3f1fc6e3127",
+                        "adjustedStart": "0:10:11.167",
+                        "adjustedEnd": "0:10:11.209",
+                        "start": "0:10:11.167",
+                        "end": "0:10:11.209"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:10:10.542",
+                "adjustedEnd": "0:10:17.167",
+                "start": "0:10:10.542",
+                "end": "0:10:17.167"
+            }
+        ]
+    },
+    {
+        "id": 140,
+        "keyFrames": [
+            {
+                "id": 234,
+                "instances": [
+                    {
+                        "thumbnailId": "68c140f9-66e4-496c-bf19-e4704e96cc10",
+                        "adjustedStart": "0:10:17.167",
+                        "adjustedEnd": "0:10:17.209",
+                        "start": "0:10:17.167",
+                        "end": "0:10:17.209"
+                    }
+                ]
+            },
+            {
+                "id": 235,
+                "instances": [
+                    {
+                        "thumbnailId": "d4e406b8-9977-4c99-90f7-e45a44d006d1",
+                        "adjustedStart": "0:10:19.042",
+                        "adjustedEnd": "0:10:19.084",
+                        "start": "0:10:19.042",
+                        "end": "0:10:19.084"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:10:17.167",
+                "adjustedEnd": "0:10:32.292",
+                "start": "0:10:17.167",
+                "end": "0:10:32.292"
+            }
+        ]
+    },
+    {
+        "id": 141,
+        "keyFrames": [
+            {
+                "id": 236,
+                "instances": [
+                    {
+                        "thumbnailId": "28aaa313-4535-4461-bfbf-88a69e72edc9",
+                        "adjustedStart": "0:10:32.292",
+                        "adjustedEnd": "0:10:32.334",
+                        "start": "0:10:32.292",
+                        "end": "0:10:32.334"
+                    }
+                ]
+            },
+            {
+                "id": 237,
+                "instances": [
+                    {
+                        "thumbnailId": "6ff715d7-32fb-4e77-b4f0-1c58f59ef6c9",
+                        "adjustedStart": "0:10:57.042",
+                        "adjustedEnd": "0:10:57.084",
+                        "start": "0:10:57.042",
+                        "end": "0:10:57.084"
+                    }
+                ]
+            },
+            {
+                "id": 238,
+                "instances": [
+                    {
+                        "thumbnailId": "58500a5d-ce6e-466f-8dd8-06b53e5d3843",
+                        "adjustedStart": "0:11:40.542",
+                        "adjustedEnd": "0:11:40.584",
+                        "start": "0:11:40.542",
+                        "end": "0:11:40.584"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:10:32.292",
+                "adjustedEnd": "0:11:49.792",
+                "start": "0:10:32.292",
+                "end": "0:11:49.792"
+            }
+        ]
+    },
+    {
+        "id": 142,
+        "tags": [
+            "Wide",
+            "CenterFace",
+            "Outdoor"
+        ],
+        "keyFrames": [
+            {
+                "id": 239,
+                "instances": [
+                    {
+                        "thumbnailId": "3b413bf9-8167-4c16-a076-6e6f4c523e97",
+                        "adjustedStart": "0:11:49.792",
+                        "adjustedEnd": "0:11:49.834",
+                        "start": "0:11:49.792",
+                        "end": "0:11:49.834"
+                    }
+                ]
+            },
+            {
+                "id": 240,
+                "instances": [
+                    {
+                        "thumbnailId": "22fa41f8-5df8-4c15-abdd-d1e857f0aec6",
+                        "adjustedStart": "0:12:01.583",
+                        "adjustedEnd": "0:12:01.625",
+                        "start": "0:12:01.583",
+                        "end": "0:12:01.625"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:11:49.792",
+                "adjustedEnd": "0:12:10.375",
+                "start": "0:11:49.792",
+                "end": "0:12:10.375"
+            }
+        ]
+    },
+    {
+        "id": 143,
+        "keyFrames": [
+            {
+                "id": 241,
+                "instances": [
+                    {
+                        "thumbnailId": "b7a0955e-d97b-4166-a493-5db53ba2c4fd",
+                        "adjustedStart": "0:12:10.375",
+                        "adjustedEnd": "0:12:10.417",
+                        "start": "0:12:10.375",
+                        "end": "0:12:10.417"
+                    }
+                ]
+            }
+        ],
+        "instances": [
+            {
+                "adjustedStart": "0:12:10.375",
+                "adjustedEnd": "0:12:14.125",
+                "start": "0:12:10.375",
+                "end": "0:12:14.125"
+            }
+        ]
+    }
+]
