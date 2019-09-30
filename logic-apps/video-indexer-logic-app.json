@@ -1,0 +1,293 @@
+{
+    "$connections": {
+        "value": {
+            "aci": {
+                "connectionId": "/subscriptions/<sub-id>/resourceGroups/serverless-encoder-rg/providers/Microsoft.Web/connections/aci",
+                "connectionName": "aci",
+                "id": "/subscriptions/<sub-id>/providers/Microsoft.Web/locations/westus2/managedApis/aci"
+            },
+            "azureblob": {
+                "connectionId": "/subscriptions/<sub-id>/resourceGroups/serverless-encoder-rg/providers/Microsoft.Web/connections/azureblob",
+                "connectionName": "azureblob",
+                "id": "/subscriptions/<sub-id>/providers/Microsoft.Web/locations/westus2/managedApis/azureblob"
+            },
+            "azureeventgrid": {
+                "connectionId": "/subscriptions/<sub-id>/resourceGroups/serverless-encoder-rg/providers/Microsoft.Web/connections/azureeventgrid",
+                "connectionName": "azureeventgrid",
+                "id": "/subscriptions/<sub-id>/providers/Microsoft.Web/locations/westus2/managedApis/azureeventgrid"
+            },
+            "videoindexer-v2": {
+                "connectionId": "/subscriptions/<sub-id>/resourceGroups/serverless-encoder-rg/providers/Microsoft.Web/connections/videoindexer-v2",
+                "connectionName": "videoindexer-v2",
+                "id": "/subscriptions/<sub-id>/providers/Microsoft.Web/locations/westus2/managedApis/videoindexer-v2"
+            }
+        }
+    },
+    "definition": {
+        "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+        "actions": {
+            "Condition": {
+                "actions": {
+                    "Compose": {
+                        "inputs": "@{split(triggerBody()?['subject'], '/')?[4]}/@{split(triggerBody()?['subject'], '/')?[6]}",
+                        "runAfter": {},
+                        "type": "Compose"
+                    },
+                    "Create_SAS_URI_by_path": {
+                        "inputs": {
+                            "body": {
+                                "Permissions": "Read"
+                            },
+                            "host": {
+                                "connection": {
+                                    "name": "@parameters('$connections')['azureblob']['connectionId']"
+                                }
+                            },
+                            "method": "post",
+                            "path": "/datasets/default/CreateSharedLinkByPath",
+                            "queries": {
+                                "path": "@{outputs('Compose')}"
+                            }
+                        },
+                        "runAfter": {
+                            "Compose": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "ApiConnection"
+                    },
+                    "Create_container_group": {
+                        "inputs": {
+                            "body": {
+                                "location": "westus2",
+                                "properties": {
+                                    "containers": [
+                                        {
+                                            "name": "@body('Upload_video_and_index')?['id']",
+                                            "properties": {
+                                                "command": [
+                                                    "wget",
+                                                    "--no-check-certificate",
+                                                    "-O",
+                                                    "/aci/source/@{split(triggerBody()?['subject'], '/')?[6]}",
+                                                    "@body('Create_SAS_URI_by_path')?['WebUrl']"
+                                                ],
+                                                "image": "inutano/wget",
+                                                "resources": {
+                                                    "requests": {
+                                                        "cpu": 1,
+                                                        "memoryInGB": 0.5
+                                                    }
+                                                },
+                                                "volumeMounts": [
+                                                    {
+                                                        "mountPath": "/aci/source/",
+                                                        "name": "source",
+                                                        "readOnly": false
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "osType": "Linux",
+                                    "restartPolicy": "Never",
+                                    "volumes": [
+                                        {
+                                            "azureFile": {
+                                                "readOnly": false,
+                                                "shareName": "source",
+                                                "storageAccountKey": "",
+                                                "storageAccountName": "serverlessncodermedia"
+                                            },
+                                            "name": "source"
+                                        }
+                                    ]
+                                }
+                            },
+                            "host": {
+                                "connection": {
+                                    "name": "@parameters('$connections')['aci']['connectionId']"
+                                }
+                            },
+                            "method": "put",
+                            "path": "/subscriptions/@{encodeURIComponent('<sub-id>')}/resourceGroups/@{encodeURIComponent('encoding-containers-rg')}/providers/Microsoft.ContainerInstance/containerGroups/@{encodeURIComponent(body('Upload_video_and_index')?['id'])}",
+                            "queries": {
+                                "x-ms-api-version": "2017-10-01-preview"
+                            }
+                        },
+                        "runAfter": {
+                            "Upload_video_and_index": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "ApiConnection"
+                    },
+                    "Delete_container_group": {
+                        "inputs": {
+                            "host": {
+                                "connection": {
+                                    "name": "@parameters('$connections')['aci']['connectionId']"
+                                }
+                            },
+                            "method": "delete",
+                            "path": "/subscriptions/@{encodeURIComponent('<sub-id>')}/resourceGroups/@{encodeURIComponent('encoding-containers-rg')}/providers/Microsoft.ContainerInstance/containerGroups/@{encodeURIComponent(body('Get_properties_of_a_container_group')?['name'])}",
+                            "queries": {
+                                "x-ms-api-version": "2017-10-01-preview"
+                            }
+                        },
+                        "runAfter": {
+                            "Until": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "ApiConnection"
+                    },
+                    "Get_Account_Access_Token": {
+                        "inputs": {
+                            "host": {
+                                "connection": {
+                                    "name": "@parameters('$connections')['videoindexer-v2']['connectionId']"
+                                }
+                            },
+                            "method": "get",
+                            "path": "/auth/@{encodeURIComponent('westus2')}/Accounts/@{encodeURIComponent('<access-token>')}/AccessToken",
+                            "queries": {
+                                "allowEdit": true
+                            }
+                        },
+                        "runAfter": {
+                            "Create_SAS_URI_by_path": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "ApiConnection"
+                    },
+                    "Until": {
+                        "actions": {
+                            "Delay": {
+                                "inputs": {
+                                    "interval": {
+                                        "count": 1,
+                                        "unit": "Minute"
+                                    }
+                                },
+                                "runAfter": {},
+                                "type": "Wait"
+                            },
+                            "Get_properties_of_a_container_group": {
+                                "inputs": {
+                                    "host": {
+                                        "connection": {
+                                            "name": "@parameters('$connections')['aci']['connectionId']"
+                                        }
+                                    },
+                                    "method": "get",
+                                    "path": "/subscriptions/@{encodeURIComponent('<sub-id>')}/resourceGroups/@{encodeURIComponent('encoding-containers-rg')}/providers/Microsoft.ContainerInstance/containerGroups/@{encodeURIComponent(body('Create_container_group')?['name'])}",
+                                    "queries": {
+                                        "x-ms-api-version": "2017-10-01-preview"
+                                    }
+                                },
+                                "runAfter": {
+                                    "Delay": [
+                                        "Succeeded"
+                                    ]
+                                },
+                                "type": "ApiConnection"
+                            }
+                        },
+                        "expression": "@equals(body('Get_properties_of_a_container_group')?['properties']?['instanceView']?['state'], 'Succeeded')",
+                        "limit": {
+                            "count": 60,
+                            "timeout": "PT1H"
+                        },
+                        "runAfter": {
+                            "Create_container_group": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "Until"
+                    },
+                    "Upload_video_and_index": {
+                        "inputs": {
+                            "host": {
+                                "connection": {
+                                    "name": "@parameters('$connections')['videoindexer-v2']['connectionId']"
+                                }
+                            },
+                            "method": "post",
+                            "path": "/@{encodeURIComponent('westus2')}/Accounts/@{encodeURIComponent('<access-token>')}/Videos",
+                            "queries": {
+                                "accessToken": "@body('Get_Account_Access_Token')",
+                                "callbackUrl": "<call-back-URL-for-encoding-logic-app>",
+                                "fileName": "@{split(triggerBody()?['subject'], '/')?[6]}",
+                                "name": "@{split(triggerBody()?['subject'], '/')?[6]}",
+                                "videoUrl": "@body('Create_SAS_URI_by_path')?['WebUrl']"
+                            }
+                        },
+                        "runAfter": {
+                            "Get_Account_Access_Token": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "ApiConnection"
+                    }
+                },
+                "expression": {
+                    "and": [
+                        {
+                            "equals": [
+                                "@triggerBody()?['eventType']",
+                                "Microsoft.Storage.BlobCreated"
+                            ]
+                        }
+                    ]
+                },
+                "runAfter": {},
+                "type": "If"
+            }
+        },
+        "contentVersion": "1.0.0.0",
+        "outputs": {},
+        "parameters": {
+            "$connections": {
+                "defaultValue": {},
+                "type": "Object"
+            }
+        },
+        "triggers": {
+            "When_a_resource_event_occurs": {
+                "inputs": {
+                    "body": {
+                        "properties": {
+                            "destination": {
+                                "endpointType": "webhook",
+                                "properties": {
+                                    "endpointUrl": "@{listCallbackUrl()}"
+                                }
+                            },
+                            "filter": {
+                                "includedEventTypes": [
+                                    "Microsoft.Storage.BlobCreated"
+                                ],
+                                "subjectEndsWith": ".mp4"
+                            },
+                            "topic": "/subscriptions/<sub-id>/resourceGroups/serverless-encoder-rg/providers/Microsoft.Storage/storageAccounts/serverlessncodermedia"
+                        }
+                    },
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['azureeventgrid']['connectionId']"
+                        }
+                    },
+                    "path": "/subscriptions/<sub-id>/providers/@{encodeURIComponent('Microsoft.Storage.StorageAccounts')}/resource/eventSubscriptions",
+                    "queries": {
+                        "subscriptionName": "mediaupload-sub",
+                        "x-ms-api-version": "2017-09-15-preview"
+                    }
+                },
+                "splitOn": "@triggerBody()",
+                "type": "ApiConnectionWebhook"
+            }
+        }
+    }
+}

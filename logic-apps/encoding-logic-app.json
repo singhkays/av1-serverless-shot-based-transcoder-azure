@@ -1,0 +1,523 @@
+{
+    "$connections": {
+        "value": {
+            "aci": {
+                "connectionId": "/subscriptions/<sub-id>/resourceGroups/serverless-encoder-rg/providers/Microsoft.Web/connections/aci",
+                "connectionName": "aci",
+                "id": "/subscriptions/<sub-id>/providers/Microsoft.Web/locations/westus2/managedApis/aci"
+            },
+            "azurefile": {
+                "connectionId": "/subscriptions/<sub-id>/resourceGroups/serverless-encoder-rg/providers/Microsoft.Web/connections/azurefile",
+                "connectionName": "azurefile",
+                "id": "/subscriptions/<sub-id>/providers/Microsoft.Web/locations/westus2/managedApis/azurefile"
+            },
+            "outlook": {
+                "connectionId": "/subscriptions/<sub-id>/resourceGroups/serverless-encoder-rg/providers/Microsoft.Web/connections/outlook",
+                "connectionName": "outlook",
+                "id": "/subscriptions/<sub-id>/providers/Microsoft.Web/locations/westus2/managedApis/outlook"
+            },
+            "videoindexer-v2": {
+                "connectionId": "/subscriptions/<sub-id>/resourceGroups/serverless-encoder-rg/providers/Microsoft.Web/connections/videoindexer-v2",
+                "connectionName": "videoindexer-v2",
+                "id": "/subscriptions/<sub-id>/providers/Microsoft.Web/locations/westus2/managedApis/videoindexer-v2"
+            }
+        }
+    },
+    "definition": {
+        "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+        "actions": {
+            "Create_container_group_2": {
+                "inputs": {
+                    "body": {
+                        "location": "westus2",
+                        "properties": {
+                            "containers": [
+                                {
+                                    "name": "concat-ffmpeg",
+                                    "properties": {
+                                        "command": [
+                                            "/opt/ffmpeg/bin/ffmpeg",
+                                            "-f",
+                                            "concat",
+                                            "-safe",
+                                            "0",
+                                            "-i",
+                                            "/aci/insights/@{body('Create_file_2')?['Name']}",
+                                            "-c",
+                                            "copy",
+                                            "-y",
+                                            "/aci/output/@{body('Get_Video_Index')?['name']}-output.mkv"
+                                        ],
+                                        "image": "offbytwo/ffmpeg",
+                                        "resources": {
+                                            "requests": {
+                                                "cpu": 2,
+                                                "memoryInGB": 1.5
+                                            }
+                                        },
+                                        "volumeMounts": [
+                                            {
+                                                "mountPath": "/aci/insights/",
+                                                "name": "insights",
+                                                "readOnly": true
+                                            },
+                                            {
+                                                "mountPath": "/aci/shots/",
+                                                "name": "shots",
+                                                "readOnly": true
+                                            },
+                                            {
+                                                "mountPath": "/aci/output/",
+                                                "name": "output",
+                                                "readOnly": false
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "osType": "Linux",
+                            "restartPolicy": "Never",
+                            "volumes": [
+                                {
+                                    "azureFile": {
+                                        "readOnly": true,
+                                        "shareName": "shots",
+                                        "storageAccountKey": "",
+                                        "storageAccountName": "serverlessencodermedia"
+                                    },
+                                    "name": "shots"
+                                },
+                                {
+                                    "azureFile": {
+                                        "readOnly": true,
+                                        "shareName": "insights",
+                                        "storageAccountKey": "",
+                                        "storageAccountName": "serverlessencodermedia"
+                                    },
+                                    "name": "insights"
+                                },
+                                {
+                                    "azureFile": {
+                                        "readOnly": false,
+                                        "shareName": "output",
+                                        "storageAccountKey": "",
+                                        "storageAccountName": "serverlessencodermedia"
+                                    },
+                                    "name": "output"
+                                }
+                            ]
+                        }
+                    },
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['aci']['connectionId']"
+                        }
+                    },
+                    "method": "put",
+                    "path": "/subscriptions/@{encodeURIComponent('<sub-id>')}/resourceGroups/@{encodeURIComponent('serverless-encoder-rg')}/providers/Microsoft.ContainerInstance/containerGroups/@{encodeURIComponent('concat-ffmpeg')}",
+                    "queries": {
+                        "x-ms-api-version": "2017-10-01-preview"
+                    }
+                },
+                "runAfter": {
+                    "Create_file_2": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "ApiConnection"
+            },
+            "Create_file": {
+                "inputs": {
+                    "body": "@body('Get_Video_Index')?['videos'][0]['insights']['shots']",
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['azurefile']['connectionId']"
+                        }
+                    },
+                    "method": "post",
+                    "path": "/datasets/default/files",
+                    "queries": {
+                        "folderPath": "/insights",
+                        "name": "@{concat(body('Get_Video_Index')?['name'], '-insights','.json')}",
+                        "queryParametersSingleEncoded": true
+                    }
+                },
+                "runAfter": {
+                    "Get_Video_Index": [
+                        "Succeeded"
+                    ]
+                },
+                "runtimeConfiguration": {
+                    "contentTransfer": {
+                        "transferMode": "Chunked"
+                    }
+                },
+                "type": "ApiConnection"
+            },
+            "Create_file_2": {
+                "inputs": {
+                    "body": "@body('ffmpeg-concat')",
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['azurefile']['connectionId']"
+                        }
+                    },
+                    "method": "post",
+                    "path": "/datasets/default/files",
+                    "queries": {
+                        "folderPath": "/insights",
+                        "name": "@{concat(body('Get_Video_Index')?['name'],'-concat','.txt')}",
+                        "queryParametersSingleEncoded": true
+                    }
+                },
+                "runAfter": {
+                    "ffmpeg-concat": [
+                        "Succeeded"
+                    ]
+                },
+                "runtimeConfiguration": {
+                    "contentTransfer": {
+                        "transferMode": "Chunked"
+                    }
+                },
+                "type": "ApiConnection"
+            },
+            "For_each": {
+                "actions": {
+                    "Create_container_group": {
+                        "inputs": {
+                            "body": {
+                                "location": "westus2",
+                                "properties": {
+                                    "containers": [
+                                        "@items('For_each')"
+                                    ],
+                                    "osType": "Linux",
+                                    "restartPolicy": "Never",
+                                    "volumes": [
+                                        {
+                                            "azureFile": {
+                                                "readOnly": false,
+                                                "shareName": "source",
+                                                "storageAccountKey": "",
+                                                "storageAccountName": "serverlessncodermedia"
+                                            },
+                                            "name": "source"
+                                        },
+                                        {
+                                            "azureFile": {
+                                                "readOnly": false,
+                                                "shareName": "shots",
+                                                "storageAccountKey": "",
+                                                "storageAccountName": "serverlessncodermedia"
+                                            },
+                                            "name": "shots"
+                                        }
+                                    ]
+                                }
+                            },
+                            "host": {
+                                "connection": {
+                                    "name": "@parameters('$connections')['aci']['connectionId']"
+                                }
+                            },
+                            "method": "put",
+                            "path": "/subscriptions/@{encodeURIComponent('<sub-id>')}/resourceGroups/@{encodeURIComponent('encoding-containers-rg')}/providers/Microsoft.ContainerInstance/containerGroups/@{encodeURIComponent(items('For_each')?[0]['name'])}",
+                            "queries": {
+                                "x-ms-api-version": "2017-10-01-preview"
+                            }
+                        },
+                        "runAfter": {},
+                        "type": "ApiConnection"
+                    },
+                    "Delete_container_group": {
+                        "inputs": {
+                            "host": {
+                                "connection": {
+                                    "name": "@parameters('$connections')['aci']['connectionId']"
+                                }
+                            },
+                            "method": "delete",
+                            "path": "/subscriptions/@{encodeURIComponent('<sub-id>')}/resourceGroups/@{encodeURIComponent('encoding-containers-rg')}/providers/Microsoft.ContainerInstance/containerGroups/@{encodeURIComponent(items('For_each')?[0]['name'])}",
+                            "queries": {
+                                "x-ms-api-version": "2017-10-01-preview"
+                            }
+                        },
+                        "runAfter": {
+                            "Until_2": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "ApiConnection"
+                    },
+                    "Until": {
+                        "actions": {
+                            "Delay": {
+                                "inputs": {
+                                    "interval": {
+                                        "count": 1,
+                                        "unit": "Minute"
+                                    }
+                                },
+                                "runAfter": {},
+                                "type": "Wait"
+                            },
+                            "Get_properties_of_a_container_group": {
+                                "inputs": {
+                                    "host": {
+                                        "connection": {
+                                            "name": "@parameters('$connections')['aci']['connectionId']"
+                                        }
+                                    },
+                                    "method": "get",
+                                    "path": "/subscriptions/@{encodeURIComponent('<sub-id>')}/resourceGroups/@{encodeURIComponent('encoding-containers-rg')}/providers/Microsoft.ContainerInstance/containerGroups/@{encodeURIComponent(items('For_each')?[0]['name'])}",
+                                    "queries": {
+                                        "x-ms-api-version": "2017-10-01-preview"
+                                    }
+                                },
+                                "runAfter": {
+                                    "Delay": [
+                                        "Succeeded"
+                                    ]
+                                },
+                                "type": "ApiConnection"
+                            }
+                        },
+                        "expression": "@equals(body('Get_properties_of_a_container_group')?['properties']?['provisioningState'], 'Succeeded')",
+                        "limit": {
+                            "count": 60,
+                            "timeout": "PT1H"
+                        },
+                        "runAfter": {
+                            "Create_container_group": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "Until"
+                    },
+                    "Until_2": {
+                        "actions": {
+                            "Delay_2": {
+                                "inputs": {
+                                    "interval": {
+                                        "count": 2,
+                                        "unit": "Minute"
+                                    }
+                                },
+                                "runAfter": {},
+                                "type": "Wait"
+                            },
+                            "Get_properties_of_a_container_group_2": {
+                                "inputs": {
+                                    "host": {
+                                        "connection": {
+                                            "name": "@parameters('$connections')['aci']['connectionId']"
+                                        }
+                                    },
+                                    "method": "get",
+                                    "path": "/subscriptions/@{encodeURIComponent('<sub-id>')}/resourceGroups/@{encodeURIComponent('encoding-containers-rg')}/providers/Microsoft.ContainerInstance/containerGroups/@{encodeURIComponent(items('For_each')?[0]['name'])}",
+                                    "queries": {
+                                        "x-ms-api-version": "2017-10-01-preview"
+                                    }
+                                },
+                                "runAfter": {
+                                    "Delay_2": [
+                                        "Succeeded"
+                                    ]
+                                },
+                                "type": "ApiConnection"
+                            }
+                        },
+                        "expression": "@equals(body('Get_properties_of_a_container_group_2')?['properties']?['instanceView']?['state'], '')",
+                        "limit": {
+                            "count": 60,
+                            "timeout": "PT1H"
+                        },
+                        "runAfter": {
+                            "Until": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "Until"
+                    }
+                },
+                "foreach": "@json(body('parse-shots'))",
+                "runAfter": {
+                    "parse-shots": [
+                        "Succeeded"
+                    ]
+                },
+                "runtimeConfiguration": {
+                    "concurrency": {
+                        "repetitions": 50
+                    }
+                },
+                "type": "Foreach"
+            },
+            "Get_Account_Access_Token": {
+                "inputs": {
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['videoindexer-v2']['connectionId']"
+                        }
+                    },
+                    "method": "get",
+                    "path": "/auth/@{encodeURIComponent('westus2')}/Accounts/@{encodeURIComponent('<access-token>')}/AccessToken",
+                    "queries": {
+                        "allowEdit": false
+                    }
+                },
+                "runAfter": {},
+                "type": "ApiConnection"
+            },
+            "Get_Video_Index": {
+                "inputs": {
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['videoindexer-v2']['connectionId']"
+                        }
+                    },
+                    "method": "get",
+                    "path": "/@{encodeURIComponent('westus2')}/Accounts/@{encodeURIComponent('<access-token>')}/Videos/@{encodeURIComponent(triggerOutputs()['queries']['id'])}/Index",
+                    "queries": {
+                        "accessToken": "@body('Get_Account_Access_Token')"
+                    }
+                },
+                "runAfter": {
+                    "Get_Account_Access_Token": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "ApiConnection"
+            },
+            "Send_an_email_(V2)": {
+                "inputs": {
+                    "body": {
+                        "Body": "<p>Video file name: /aci/output/@{body('Get_Video_Index')?['name']}-output.mkv</p>",
+                        "Subject": "Encoded video now available",
+                        "To": "<email-to-send-completed-notification-to>"
+                    },
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['outlook']['connectionId']"
+                        }
+                    },
+                    "method": "post",
+                    "path": "/v2/Mail"
+                },
+                "runAfter": {
+                    "Until_3": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "ApiConnection"
+            },
+            "Until_3": {
+                "actions": {
+                    "Delay_3": {
+                        "inputs": {
+                            "interval": {
+                                "count": 1,
+                                "unit": "Minute"
+                            }
+                        },
+                        "runAfter": {},
+                        "type": "Wait"
+                    },
+                    "Get_properties_of_a_container_group_3": {
+                        "inputs": {
+                            "host": {
+                                "connection": {
+                                    "name": "@parameters('$connections')['aci']['connectionId']"
+                                }
+                            },
+                            "method": "get",
+                            "path": "/subscriptions/@{encodeURIComponent('<sub-id>')}/resourceGroups/@{encodeURIComponent('serverless-encoder-rg')}/providers/Microsoft.ContainerInstance/containerGroups/@{encodeURIComponent(body('Create_container_group_2')?['name'])}",
+                            "queries": {
+                                "x-ms-api-version": "2017-10-01-preview"
+                            }
+                        },
+                        "runAfter": {
+                            "Delay_3": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "ApiConnection"
+                    }
+                },
+                "expression": "@equals(body('Get_properties_of_a_container_group_3')?['properties']?['instanceView']?['state'], '')",
+                "limit": {
+                    "count": 60,
+                    "timeout": "PT1H"
+                },
+                "runAfter": {
+                    "Create_container_group_2": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "Until"
+            },
+            "ffmpeg-concat": {
+                "inputs": {
+                    "body": "@body('Get_Video_Index')?['videos'][0]['insights']['shots']",
+                    "function": {
+                        "id": "/subscriptions/<sub-id>/resourceGroups/serverless-encoder-rg/providers/Microsoft.Web/sites/serverless-encoder-functions/functions/ffmpeg-concat"
+                    },
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "aciShotsVideoPath": "/aci/shots/"
+                    }
+                },
+                "runAfter": {
+                    "For_each": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "Function"
+            },
+            "parse-shots": {
+                "inputs": {
+                    "body": "@body('Get_Video_Index')?['videos'][0]['insights']['shots']",
+                    "function": {
+                        "id": "/subscriptions/<sub-id>/resourceGroups/serverless-encoder-rg/providers/Microsoft.Web/sites/serverless-encoder-functions/functions/parse-shots"
+                    },
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "aciDestinationVideoMountName": "shots",
+                        "aciDestinationVideoPath": "/aci/shots/",
+                        "aciSourceVideoMountName": "source",
+                        "aciSourceVideoPath": "/aci/source/",
+                        "dockerImage": "singhkays/ffmpeg-av1-libaom",
+                        "ffmpegBinaryPath": "/opt/ffmpeg/bin",
+                        "requestedCPUCores": "2",
+                        "requestedMemoryInGB": "2",
+                        "videoName": "@body('Get_Video_Index')?['name']"
+                    }
+                },
+                "runAfter": {
+                    "Create_file": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "Function"
+            }
+        },
+        "contentVersion": "1.0.0.0",
+        "outputs": {},
+        "parameters": {
+            "$connections": {
+                "defaultValue": {},
+                "type": "Object"
+            }
+        },
+        "triggers": {
+            "manual": {
+                "inputs": {
+                    "schema": {}
+                },
+                "kind": "Http",
+                "type": "Request"
+            }
+        }
+    }
+}
